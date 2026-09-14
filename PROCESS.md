@@ -1,53 +1,59 @@
 # Process overview
 
-<!-- TEMPLATE: this file is a shape to fill in, not a form. Replace everything
-     in it with your own overview, and delete this comment — `pnpm
-     check:evidence` will remind you if it's still here. -->
-
-Written by you, for a reader: how you got from the brief to the harness and
-agentic workflow behind this submission. Markers read this file and follow its
-citations; they don't trawl the repo for evidence you didn't point at.
-
-This file is the shape; the course site's
-[assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#what-you-submit)
-is the requirement, and its
-[word counts](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#word-counts)
-cover every deliverable.
-
 ## What I built
 
-One paragraph: the thing, and the idea behind it.
+SLOP8258: Vehicular Macropod Avoidance, a fictional postgraduate unit on
+kangaroo–vehicle collisions in Australia — a 12-week research-literature
+curriculum spanning ecology, impact biomechanics, detection technology, road
+engineering, law, and policy, with a convenor, a tutor, two assessments
+(a week-6 literature review and a week-12 research proposal), and a week-1
+lecture deck, all authored on top of the static course template.
 
 ## How I got here
 
-The account of the process: how the work actually went, and how you knew the
-result was right. Tell it in whatever order makes it clear. A weekly prototype
-needs a paragraph or two; an assignment needs more.
+The repo started from the template scaffold and the assignment-2 spec tests at
+[`06aee1b`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-TaveWang/commit/06aee1b),
+carried forward from the previous week's harness at
+[`fff8fab`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-TaveWang/commit/fff8fab).
 
-Cite the record as you go, as links whose text is the commit hash or range and
-whose target is this repo's commit or compare URL, so a reader clicks straight
-to the evidence:
+Most of the course content — `course-config.ts`, both people bios, all 12
+sessions and lectures, both assessments, and the week-1 deck — went in as one
+batch in
+[`a3dc540`](https://github.com/comp4020-agentic-coding-studio/comp4020-ass2-TaveWang/commit/a3dc540),
+built from a single brief:
 
-- one commit: [`a1b2c3d`](https://github.com/YOUR-ORG/YOUR-REPO/commit/a1b2c3d)
-- a range:
-  [`a1b2c3d...e4f5a6b`](https://github.com/YOUR-ORG/YOUR-REPO/compare/a1b2c3d...e4f5a6b)
+> Build a full postgraduate course website for a research-literature-oriented
+> unit on kangaroo-vehicle collisions in Australia — 12 weeks, two staff, two
+> assessments (a literature review + hotspot analysis worth 40%, and a
+> research proposal worth 60%), and a rewritten week-1 deck.
 
-To pair a prompt with the commit it produced, quote the prompt (curated, not a
-full transcript) next to the citation:
+That same commit added a second, separate request: hand-drawn kangaroo
+illustrations across the site, and an injured cartoon kangaroo — bandaged
+head, arm in a sling — as a course participant, "Dr Kargaroo", using the
+illustration as his profile photo. Two build failures shaped how that art
+actually got wired in:
 
-> the prompt, verbatim
+- an MDX file's `<style>{...}</style>` block failed to parse (MDX treats the
+  CSS braces as a JavaScript expression), fixed by moving the rule to an
+  inline `style` attribute instead;
+- decorative SVGs placed in `public/` and referenced with plain
+  `src="/kangaroos/...svg"` inside `.astro`/`.mdx` template markup escaped the
+  deployment's base path, because the theme's base-path rewriter only runs on
+  Markdown prose, not on raw template markup. Moving the SVGs into
+  `src/assets/` and importing them with Vite's `?url` suffix — the same
+  pattern the theme already used for the hero image — resolved it.
 
-Screenshots are welcome where one carries the point better than a sentence does.
-Commit the file to this repo and link it with a **relative** path, which is what
-makes it render on GitHub: `![alt text](docs/before.png)`. Images don't count
-towards the word count and don't replace the citation.
+I knew the result was right the same way the harness in `CLAUDE.md` asks for:
+`pnpm check` green (typecheck, static build, spec tests, accessibility, and
+link-base checks all passing), plus a headless-Chrome screenshot of each
+changed page, read back to confirm the illustrations rendered as intended
+rather than trusting the raw markup.
 
-## Before you ship
-
-`pnpm check:evidence` verifies that this comment is gone, that your citations
-resolve to real commits, that a crit week's reflection entry is in
-`reflections/`, and that your `CLAUDE.md` is there. It checks that your account
-is traceable, not that it is good: that is the marker's call.
-
-Images aren't checked: unlike a citation whose SHA doesn't resolve, a broken
-image is visible the moment this file is rendered on GitHub.
+The remaining starter placeholders — the homepage's "what you'll do"/"who
+it's for" copy, the policies page, and the template's stock hero/card/portrait
+images — were still in the tree going into this submission's `pnpm
+check:evidence` run. They're replaced in this same pass: the two prose
+sections and the policies page now carry real course content, and the four
+unreplaced starter images are removed rather than restaged, since the course's
+own illustrations (the homepage and People-page kangaroo doodles, and Dr
+Kargaroo's portrait) already carry the site's visual identity without them.

@@ -7,8 +7,6 @@ affiliation: Road Ecology Research Group, Slop University
 role: tutor
 email: idris.fenn@slop.university
 contact: Ask during sessions, or email when a question cannot wait until the next one.
-photo: ./idris-fenn.avif
-photoAlt: A stylised portrait of a person facing the viewer, flat gold and black shapes on warm cream, in a two-ink risograph print
 ---
 
 Idris spent four years writing signage and fencing specifications for a state

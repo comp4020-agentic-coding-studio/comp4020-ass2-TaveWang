@@ -7,8 +7,6 @@ affiliation: Road Ecology Research Group, Slop University
 role: convenor
 email: marisol.quaye@slop.university
 contact: Email for enrolment or assessment questions; bring research-design questions to the session.
-photo: ./marisol-quaye.avif
-photoAlt: A stylised portrait of a person in three-quarter view, flat gold and black shapes on warm cream, in a two-ink risograph print
 ---
 
 Marisol set up the unit after five years collecting roadside collision data
