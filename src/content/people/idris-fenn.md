@@ -1,9 +1,9 @@
 ---
 title: Idris Fenn
 description:
-  A tutor working across the course's first reviews and the practical work that
-  follows them.
-affiliation: Slop University School of Invented Disciplines
+  Teaching fellow covering the engineering and policy weeks, on secondment
+  from a state road authority's wildlife-strike reduction program.
+affiliation: Road Ecology Research Group, Slop University
 role: tutor
 email: idris.fenn@slop.university
 contact: Ask during sessions, or email when a question cannot wait until the next one.
@@ -11,7 +11,7 @@ photo: ./idris-fenn.avif
 photoAlt: A stylised portrait of a person facing the viewer, flat gold and black shapes on warm cream, in a two-ink risograph print
 ---
 
-<!-- STARTER_CONTENT: replace this person entry, then remove this comment. -->
-
-Replace this entry. A second person makes the listing, role ordering and
-teacher-reference fields visible before you replace the cast with your own.
+Idris spent four years writing signage and fencing specifications for a state
+road authority before joining the unit to teach the weeks where the biology
+meets the guardrail. He's blunt about which interventions the evidence
+actually supports and which ones just look decisive on a press release.

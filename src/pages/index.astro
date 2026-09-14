@@ -3,6 +3,7 @@ import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import heroImage from "../assets/images/hero-home.avif";
+import jumpingRoo from "../assets/kangaroos/jumping-roo.svg?url";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
 
@@ -17,9 +18,18 @@ import { sessionLabels, siteConfig } from "../site-config";
   heroImageAlt="A lecture theatre reduced to flat gold and black shapes, rows of seats sweeping past the frame, in a two-ink risograph print"
   {...siteConfig}
 >
-  <ul class="course-tags" aria-label="Course tags">
-    {courseMeta.tags.map((tag) => <li>{tag}</li>)}
-  </ul>
+  <div class="tags-row">
+    <ul class="course-tags" aria-label="Course tags">
+      {courseMeta.tags.map((tag) => <li>{tag}</li>)}
+    </ul>
+    <img
+      class="roo-doodle"
+      src={jumpingRoo}
+      alt="A doodled kangaroo mid-hop"
+      width="120"
+      height="96"
+    />
+  </div>
 
   <!-- STARTER_CONTENT: replace the authored page below, then remove this comment. -->
   <h2>What you will do</h2>
@@ -49,11 +59,24 @@ import { sessionLabels, siteConfig } from "../site-config";
 </ContentLayout>
 
 <style>
+  .tags-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-block: 0 2rem;
+  }
+
+  .roo-doodle {
+    flex-shrink: 0;
+    opacity: 0.85;
+  }
+
   .course-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin-block: 0 2rem;
+    margin: 0;
     padding: 0;
     list-style: none;
   }

@@ -1,38 +1,56 @@
 ---
-title: Final project
+title: "Research proposal: a safety intervention"
 description:
-  The capstone — a placeholder brief for the larger piece of work the semester
-  builds towards
+  A capstone research proposal for a single wildlife-vehicle safety
+  intervention, defensible on ecological, physical, human-factors and
+  policy grounds at once.
 week: 12
 due: 2027-05-28T12:00:00+10:00
 weight: 60
 marking:
   mode: holistic
   description:
-    The final project is judged as a whole against the brief, with particular
-    attention to whether the result stands alone and whether its scope fits the
-    semester that produced it.
+    The proposal is judged as a whole against the brief, with particular
+    attention to whether it argues from evidence covered across the
+    semester rather than from a single strand of it, whether its scope and
+    costing are realistic for the jurisdiction it targets, and whether it
+    stands on its own for a reader who wasn't in the room.
 spec:
-  - submitted by the deadline, in the format named below
+  - submitted by the deadline, as a single proposal document
+  - it recommends one specific intervention, for one specific stretch of
+    road or class of road, not a general survey of options
+  - it argues from at least three of the unit's strands (ecology, data,
+    physics, human factors, engineering, policy) rather than one
+  - it states a realistic cost and approval pathway for the jurisdiction it
+    targets
   - it stands on its own, without you there to explain it
-  - it answers the brief rather than restating it
 ---
 
-<!-- STARTER_CONTENT: replace this assessment brief, then remove this comment. -->
-
-Replace this brief. The final project is where a course's weights usually
-concentrate, so it is worth being explicit about how the earlier work feeds it.
+The final project is where the semester's five strands — macropod ecology,
+the strike dataset, impact and human-factors mechanics, engineering
+interventions, and the law and policy that fund them — come together into a
+single piece of applied research: a proposal for one specific safety
+intervention, defensible on more than one of those grounds at once.
 
 ## The brief
 
-> One sentence, again as a blockquote.
+> Propose one wildlife-vehicle safety intervention for one specific
+> stretch of road or class of road, and defend it using evidence from at
+> least three of the unit's strands.
 
-Say what scope is realistic in the time available. A brief that quietly assumes
-twice the available hours is the most common way a capstone goes wrong.
+Scope this to what a regional road authority could plausibly fund and
+approve in a normal budget cycle — not a national rollout, and not a purely
+speculative technology. The best proposals in this unit's marking history
+have picked something narrow and defended it thoroughly, rather than
+surveyed every option shallowly.
 
 ## What you submit
 
-The artefact, and whatever a marker needs to run or read it.
+A single proposal document a road authority's planning team could read
+without you there to walk them through it: the problem, the evidence for
+your chosen intervention, its cost and approval pathway, and what would
+count as evidence that it worked.
 
-This one demonstrates the alternative marking mode: a holistic explanation
-rather than weighted criteria. The site renders either mode from frontmatter.
+This assessment uses the holistic marking mode: the proposal is judged as a
+whole against the brief, described in prose above, rather than against a
+weighted criterion table.

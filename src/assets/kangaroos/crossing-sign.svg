@@ -1,0 +1,14 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="A wonky yellow road sign with a doodled kangaroo silhouette, marking the People page">
+  <path d="M 100 8 L 192 100 L 100 193 L 9 100 Z"
+        fill="#f4c452" stroke="#211f1c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M 100 26 L 176 100 L 100 175 L 25 100 Z"
+        fill="none" stroke="#211f1c" stroke-width="3"/>
+  <path d="M 55 145 C 52 152 60 155 66 149 C 74 156 84 154 87 146
+           C 100 148 106 138 101 128 C 110 122 113 110 104 102
+           C 108 90 100 76 86 76 C 82 66 68 63 61 71
+           C 49 68 42 78 46 90 C 34 92 30 106 40 113
+           C 34 120 38 132 50 134 C 47 140 52 144 55 145 Z"
+        fill="#211f1c"/>
+  <path d="M 101 128 C 116 130 128 122 132 108 C 134 102 128 98 124 104
+           C 119 114 110 120 100 118 Z" fill="#211f1c"/>
+</svg>

@@ -1,30 +1,27 @@
 ---
-title: Opening lecture
+title: Why kangaroos, why now
 description:
-  The first lecture — what the course is, why it is shaped this way, and what
-  happens in week 1
+  Framing the unit's research question against the scale of the problem —
+  the human, animal and economic cost of wildlife-vehicle collisions in
+  Australia.
 week: 1
 date: 2027-02-22
 teachers:
   - marisol-quaye
 slides: /decks/week-01/
 related:
-  - sessions/01-getting-started
+  - sessions/01-orientation
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. A lecture entry says what was covered and links to the pages
-that own the detail, so the lecture stays short and nothing is explained twice.
-
-The `related:` ref above is a graph edge: it renders on this page and on the
-session's, so declare a connection once, on whichever side is convenient.
-
-The page renders its `slides:` link automatically. Decks are markdown too,
-under `src/decks/`; the path is part of the lecture's API metadata.
+Wildlife-vehicle collisions are common enough to be routine and rare enough,
+per driver, to be dismissed as bad luck — which is exactly the gap this unit
+sits in. This lecture sets out the shared dataset, the semester's research
+arc, and the standard of evidence the unit expects: a claim about the problem
+should point at a number, not a vibe.
 
 ## Outline
 
-- what the course is for
-- how the weeks are shaped
-- what to do before the first session
+- the scale of the problem: what the national and state data actually show
+- why "just be careful" fails as a policy response
+- the semester's arc: biology, physics, human factors, engineering, policy
+- what's expected of a claim in this unit

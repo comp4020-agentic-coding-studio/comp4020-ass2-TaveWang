@@ -1,23 +1,24 @@
 ---
-title: Second lecture
+title: Macropod behaviour and circadian activity
 description:
-  Week 2 — the first substantive material, and the run-up to the first review
+  What's actually known about why kangaroos move onto roads when they do —
+  crepuscular activity, herd movement, and the limits of that explanation.
 week: 2
 date: 2027-03-01
 teachers:
   - idris-fenn
 related:
-  - sessions/02-first-review
-  - assessments/assignment-1
+  - sessions/02-reading-the-data
 ---
 
-<!-- STARTER_CONTENT: replace this lecture, then remove this comment. -->
-
-Replace this page. It exists so the lectures listing sorts by week and the
-related block has more than one edge to draw.
+Kangaroos are crepuscular: most active at dawn and dusk, which is also when
+driver visibility is worst. That correlation explains a lot of the strike
+pattern in the dataset — but not all of it, and the lecture is as interested
+in where the behavioural account runs out as in where it holds.
 
 ## Outline
 
-- the first substantive material, and where it shows up in practice
-- what the first review is looking for
-- reading before next week
+- crepuscular activity and why it doesn't fully explain the data
+- herd movement and road-crossing behaviour
+- seasonal variation: joey season and drought-driven range shifts
+- what the week 2 data-reading exercise should and shouldn't find

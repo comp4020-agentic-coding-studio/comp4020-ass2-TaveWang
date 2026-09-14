@@ -5,5 +5,14 @@ heroTitle: People
 ---
 
 import PeopleGrid from "../../components/PeopleGrid.astro";
+import crossingSign from "../../assets/kangaroos/crossing-sign.svg?url";
+
+<img
+  src={crossingSign}
+  alt="A wonky yellow road sign with a doodled kangaroo silhouette"
+  width="96"
+  height="96"
+  style="display: block; margin-block-end: 1.5rem;"
+/>
 
 <PeopleGrid />
