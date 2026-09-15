@@ -79,3 +79,21 @@ joined as a new `people` entry with their own photo, bio, and role, reusing
 the same content-collection shape (and inheriting the existing hero- and
 card-crop fixes automatically, since both are keyed off the shared theme
 classes rather than any per-person markup).
+
+Week 1 was then rewritten from a brief for the unit's actual opening
+week: a new title ("Welcome to the Road. Please Remain a Student, Not a
+Statistic."), Dr Kargaroo installed as the week's teacher, and the lecture,
+its slide deck, and its paired session (renamed from `01-orientation` to
+`01-incident-review-committee` to match every other session's
+topic-in-the-slug convention) all rebuilt around one throughline: a
+professor's own collision doesn't prove a road is dangerous, which sets up
+the semester's research question and the personal-story-versus-evidence
+distinction the rest of the unit relies on. The paired session designs a
+five-role class exercise around a fictional case, clearly labelled as such,
+without inventing any real statistic beyond the one already in the deck. The
+same pass replaced three stock template paragraphs — on the lectures,
+sessions, and assessments index pages — that were explaining the site
+template's own mechanics (`related:` fields, weight sums, internal
+collection names) rather than telling a student anything about the course,
+after a screenshot surfaced one of them as visible, real page content rather
+than harness scaffolding.
