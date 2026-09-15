@@ -102,7 +102,7 @@ A second Week 1 pass then turned that outline into material a student could
 actually use, keeping the title, Dr Kargaroo's opening, and the five-role
 committee format unchanged. The lecture was rewritten to explain risk,
 exposure, outcome measures, and uncertainty directly through one running
-fictional example (the Old Coach Road case) instead of describing what the
+fictional example (the Yarralong Road case) instead of describing what the
 lecture "covers," and gained an explicit learning-objectives list, rendered
 on the page itself via the same `SpecList` component sessions already used,
 now given a lecture-facing `spec:` field and a second import in
@@ -111,9 +111,10 @@ materials: an incident briefing, a driver's statement, a wildlife carer's
 notes, and five role cards, plus a fill-in Incident-to-Question Brief
 template, all explicitly labelled as fictional. Two resource promises that
 didn't survive a grep of the repo — "the two papers" and "the syllabus" —
-were replaced with a real, checkable pair of readings (one peer-reviewed,
-one industry data release, chosen specifically to illustrate the
-outcome-measure problem the lecture teaches), and the session's premature
+were replaced with a single real, checkable reading (a peer-reviewed source
+chosen specifically to illustrate the outcome-measure problem the lecture
+teaches; a second, industry-data candidate didn't survive a citation check
+and was dropped rather than cited on faith), and the session's premature
 claim of dataset access was corrected to point at week 2, where that dataset
 actually lives. An unsourced "~16,000" collision estimate on the opening
 slide was sent to a background research fork to verify; when it didn't
