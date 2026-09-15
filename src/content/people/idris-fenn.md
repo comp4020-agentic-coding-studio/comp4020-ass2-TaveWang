@@ -5,6 +5,8 @@ description:
   from a state road authority's wildlife-strike reduction program.
 affiliation: Road Ecology Research Group, Slop University
 role: tutor
+photo: ./idris-fenn.jpg
+photoAlt: A kangaroo standing on the roadside with a bandaged tail, beside a crashed car.
 email: idris.fenn@slop.university
 contact: Ask during sessions, or email when a question cannot wait until the next one.
 ---

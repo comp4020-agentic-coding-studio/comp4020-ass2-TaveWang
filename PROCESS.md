@@ -66,3 +66,9 @@ image, which hid the kangaroo's face on both the homepage and Dr Kargaroo's
 profile page (the square source photos have the face near the top of the
 frame). Fixed with a scoped `object-position` override on `.at-hero-image` in
 each affected page, verified again by screenshot before committing.
+
+A follow-up screenshot caught the same center-crop problem on the People-page
+card thumbnails (`.at-card-image`, cropped to 16:9), and prompted giving
+Marisol Quaye and Idris Fenn their own portraits too, using the two remaining
+supplied photos rather than the shared decorative banner — one photo per
+named person, four photos in total, no reuse.

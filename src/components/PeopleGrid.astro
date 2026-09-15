@@ -56,3 +56,12 @@ const visible = people.sort((a, b) => {
     ))
   }
 </CardGrid>
+
+<style>
+  /* Portrait photos are square with the face near the top, but the card
+     frame crops to a wide 16:9 tile; bias the crop upward so the face
+     stays visible instead of the default center-crop showing the torso. */
+  :global(.at-card-image) {
+    object-position: 50% 15%;
+  }
+</style>

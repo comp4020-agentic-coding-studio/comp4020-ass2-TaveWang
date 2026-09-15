@@ -5,6 +5,8 @@ description:
   Group's macropod-vehicle collision dataset.
 affiliation: Road Ecology Research Group, Slop University
 role: convenor
+photo: ./marisol-quaye.jpg
+photoAlt: A kangaroo in sunglasses with a bandaged head and its arm in a sling, standing on the roadside next to a crashed car.
 email: marisol.quaye@slop.university
 contact: Email for enrolment or assessment questions; bring research-design questions to the session.
 ---
