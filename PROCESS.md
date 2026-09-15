@@ -127,3 +127,44 @@ own, while a hypothesis derived from it is what evidence can actually show
 wrong. Verified the same way as every prior round: `pnpm check` and
 `pnpm check:evidence` green, then the rebuilt lecture, session, and deck
 screenshotted at both marking viewports before committing.
+
+A third, accuracy-focused pass then tightened claims that had drifted past
+what the fictional case, or the cited paper, actually support. The lecture's
+risk explanation now names the two real mechanisms (dusk cutting detection
+distance, higher speed cutting response time) but stops short of claiming
+either was actually in play at Yarralong Road, since the case only supplies
+an 80 km/h posted limit and the driver's own unverified estimate — not a
+measured speed. The three worked examples under "from blame to a research
+question" were rewritten as openly-labelled example hypotheses, each with a
+measurable predictor, outcome, comparison and a threshold or time period,
+with an explicit line that none of them report a real finding. The driver's
+role card changed from "you know exactly what you saw and did" to "you can
+report what you remember seeing and doing" — the case never gave the driver
+privileged access to her own accuracy. The wildlife carer's clinical
+language ("injuries consistent with vehicle impact; deceased on arrival") is
+now used identically in the session's carer's notes and the lecture's
+uncertainty paragraph, rather than paraphrased differently in each place.
+The Rowden, Steinhardt & Sheehan citation was re-checked against the QUT
+eprints record for the paper (a first attempt to fetch the PDF directly
+returned unreadable binary content) and narrowed to what it actually
+demonstrates — the researchers' own in-depth serious-injury crash data,
+matched against official government crash records, showing the official
+figures undercount — rather than the previous, unsupported claim that
+insurance, police and wildlife-carer datasets were all mutually matched.
+
+That pass also closed the week 2 dataset promise, which had stood as a
+forward reference with nothing behind it. A new synthetic collision log
+(`public/data/collision-log-synthetic.csv`, 90 rows, generated with a fixed
+random seed) now exists for students to download from the week 2 session,
+alongside a full data dictionary describing every column, an explicit
+"synthetic teaching material, not real incidents" statement, and one
+deliberate, documented recording artefact for students to find, matching
+the session's existing learning objective. The dataset is linked as a plain
+Markdown path under `public/`, which the theme's base-path rewriter already
+handles for prose links, so no template change was needed. Checked the same
+way as every round: `pnpm check` (build, accessibility and link-base checks
+all pass, including the new CSV link resolving correctly), `pnpm
+check:evidence`, the pre-commit secret-scan pattern run manually over staged
+content, and the lecture, both week 1 and week 2 session pages, and the deck
+screenshotted at both marking viewports — including the new data-dictionary
+table, which wraps without horizontal overflow at 390px.
