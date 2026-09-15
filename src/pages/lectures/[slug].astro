@@ -2,6 +2,7 @@
 import { render } from "astro:content";
 import { getPublishedCollection } from "astro-course-university/content";
 import RelatedContent from "astro-course-university/components/RelatedContent.astro";
+import SpecList from "astro-course-university/components/SpecList.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
 import { withBase } from "astro-theme-university/url";
 import TeachingTeam from "../../components/TeachingTeam.astro";
@@ -22,6 +23,10 @@ const title = `Week ${lecture.data.week}: ${lecture.data.title}`;
   <p><strong>{formatCourseDate(lecture.data.date)}</strong></p>
   {lecture.data.slides && <p><a href={withBase(lecture.data.slides)}>Open the slides</a></p>}
   <Content />
+  <SpecList spec={lecture.data.spec} heading="Learning objectives">
+    What you should be able to do after this lecture and its paired session,
+    not a summary of what was said.
+  </SpecList>
   <TeachingTeam teachers={lecture.data.teachers} />
   <RelatedContent entry={lecture} collections={graphCollections} />
 </ContentLayout>
