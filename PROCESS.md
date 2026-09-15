@@ -57,3 +57,12 @@ sections and the policies page now carry real course content, and the four
 unreplaced starter images are removed rather than restaged, since the course's
 own illustrations (the homepage and People-page kangaroo doodles, and Dr
 Kargaroo's portrait) already carry the site's visual identity without them.
+
+The hand-drawn SVG kangaroo art was then swapped out for photorealistic
+kangaroo photos, replacing Dr Kargaroo's portrait, the homepage hero, and the
+People-page banner. That surfaced a real crop bug, again only visible in a
+screenshot: the theme's hero banner is wide and short and center-crops its
+image, which hid the kangaroo's face on both the homepage and Dr Kargaroo's
+profile page (the square source photos have the face near the top of the
+frame). Fixed with a scoped `object-position` override on `.at-hero-image` in
+each affected page, verified again by screenshot before committing.

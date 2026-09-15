@@ -2,7 +2,7 @@
 import Card from "astro-theme-university/components/Card.astro";
 import CardGrid from "astro-theme-university/components/CardGrid.astro";
 import ContentLayout from "astro-theme-university/layouts/ContentLayout.astro";
-import jumpingRoo from "../assets/kangaroos/jumping-roo.svg?url";
+import heroImage from "../assets/images/hero-home.jpg";
 import { courseMeta } from "../course-config";
 import { sessionLabels, siteConfig } from "../site-config";
 ---
@@ -10,20 +10,13 @@ import { sessionLabels, siteConfig } from "../site-config";
 <ContentLayout
   title={`${courseMeta.code}: ${courseMeta.title}`}
   description={courseMeta.description}
+  heroImage={heroImage}
+  heroImageAlt="A bespectacled kangaroo in a graduation cap and bandaged ear, standing beside a stack of books at the roadside, with a car passing on the highway behind it"
   {...siteConfig}
 >
-  <div class="tags-row">
-    <ul class="course-tags" aria-label="Course tags">
-      {courseMeta.tags.map((tag) => <li>{tag}</li>)}
-    </ul>
-    <img
-      class="roo-doodle"
-      src={jumpingRoo}
-      alt="A doodled kangaroo mid-hop"
-      width="120"
-      height="96"
-    />
-  </div>
+  <ul class="course-tags" aria-label="Course tags">
+    {courseMeta.tags.map((tag) => <li>{tag}</li>)}
+  </ul>
 
   <h2>What you will do</h2>
   <p>
@@ -61,24 +54,18 @@ import { sessionLabels, siteConfig } from "../site-config";
 </ContentLayout>
 
 <style>
-  .tags-row {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    gap: 1rem;
-    margin-block: 0 2rem;
-  }
-
-  .roo-doodle {
-    flex-shrink: 0;
-    opacity: 0.85;
+  /* The source photo has the kangaroo's face and cap near the top of a
+     square frame; the theme's hero banner is very wide and short, so the
+     default center-crop hides the face. Bias the crop upward instead. */
+  :global(.at-hero .at-hero-image) {
+    object-position: 50% 18%;
   }
 
   .course-tags {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    margin: 0;
+    margin: 0 0 2rem;
     padding: 0;
     list-style: none;
   }

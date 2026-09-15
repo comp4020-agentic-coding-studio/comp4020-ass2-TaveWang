@@ -6,10 +6,11 @@ description:
 affiliation: Road Ecology Research Group, Slop University
 role: convenor
 contact: Reachable in sessions; still learning to type with the good arm.
-photo: ./dr-kargaroo.svg
+photo: ./dr-kargaroo.jpg
 photoAlt:
-  A cartoon kangaroo with a bandage wrapped around its head and one arm in a
-  triangular sling, giving a thumbs up with the other paw.
+  A kangaroo with a bandage wrapped around its head, round glasses, and one
+  arm in a plaster cast and sling, standing on the roadside beside a crashed
+  car.
 ---
 
 Dr Kargaroo joined the unit as a co-convenor shortly after a collision on the

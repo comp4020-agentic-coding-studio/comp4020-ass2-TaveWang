@@ -72,3 +72,12 @@ const description = person.data.description;
 
   <Content />
 </ContentLayout>
+
+<style>
+  /* Portrait photos in this collection are square with the face near the
+     top; the theme's hero banner is wide and short, so the default
+     center-crop hides the face. Bias the crop upward instead. */
+  :global(.at-hero .at-hero-image) {
+    object-position: 50% 18%;
+  }
+</style>
