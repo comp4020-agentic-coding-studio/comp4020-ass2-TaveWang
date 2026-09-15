@@ -72,3 +72,10 @@ card thumbnails (`.at-card-image`, cropped to 16:9), and prompted giving
 Marisol Quaye and Idris Fenn their own portraits too, using the two remaining
 supplied photos rather than the shared decorative banner — one photo per
 named person, four photos in total, no reuse.
+
+A further batch of four supplied photos was used to grow the tutor roster:
+Rowan Achterberg, Desmond Okafor, Priya Lindqvist, and Callum Beaumont each
+joined as a new `people` entry with their own photo, bio, and role, reusing
+the same content-collection shape (and inheriting the existing hero- and
+card-crop fixes automatically, since both are keyed off the shared theme
+classes rather than any per-person markup).
