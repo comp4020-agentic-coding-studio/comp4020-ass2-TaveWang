@@ -55,8 +55,8 @@ recollection, not a measurement.)*
 ### Wildlife carer's notes
 
 > Attended 7:05pm. Adult female eastern grey kangaroo, no pouch young
-> observed. Injuries consistent with vehicle impact; animal was deceased on
-> arrival. Site is unfenced verge with moderate tree cover extending roughly
+> observed. Injuries consistent with vehicle impact; deceased on arrival.
+> Site is unfenced verge with moderate tree cover extending roughly
 > 15m back from the road. No tag or prior record for this individual. Unable
 > to determine how long the animal had been in the immediate area before the
 > collision, or whether this stretch has a prior collision history — that
@@ -76,12 +76,14 @@ recollection, not a measurement.)*
   front of you today, the road's collision history — the carer's notes flag
   this gap deliberately.
 - **Driver** — Your stake: whether your account is treated as fact or as one
-  input among several. You know exactly what you saw and did. You do not
-  have any way to independently verify your own speed or reaction time.
+  input among several. You can report what you remember seeing and doing.
+  You do not have any way to independently verify your own speed or
+  reaction time.
 - **Wildlife carer** — Your stake: the animal's welfare and an accurate
-  clinical record. You know the animal's condition, species, and probable
-  cause of death. You do not know anything about traffic volume, signage
-  history, or the driver's account beyond what's in this briefing.
+  clinical record. You know the animal's condition, species, and that its
+  injuries are consistent with vehicle impact. You do not know anything
+  about traffic volume, signage history, or the driver's account beyond
+  what's in this briefing.
 - **Kangaroo representative** — Your stake: that the animal's perspective
   (habitat, movement, why this verge, why this time of day) isn't skipped
   in favour of blaming the driver. You hold the session's one standing
@@ -117,5 +119,6 @@ turning an account into a testable claim, not a graded artefact. Fill in:
 
 This session doesn't require the shared collision dataset — that's
 introduced properly in week 2, where the Road Ecology Research Group's
-collision records replace this one fictional case with a much larger set of
-cases. You'll leave today with a partner for the week 3 mapping exercise.
+synthetic collision log replaces this one fictional case with a much larger
+set of cases. You'll leave today with a partner for the week 3 mapping
+exercise.

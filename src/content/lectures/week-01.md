@@ -74,10 +74,15 @@ you'll use all semester.
 ## What would we need to know?
 
 - **Risk** is not "did a collision happen" — it's how likely one is, combined
-  with how bad it is if it does. An 80 km/h limit and dusk lighting both raise
-  risk before you even know an animal is present, because both extend how
-  long a driver has to detect and react, and how much damage results if she
-  doesn't.
+  with how bad it is if it does. Two separate mechanisms can raise it: dusk
+  lighting can shorten how far ahead a driver can actually see, which cuts
+  the distance available to detect an animal at all, and a higher travel
+  speed can shorten how much time is left to respond once something is
+  detected. The case gives us the road's 80 km/h posted limit, not the
+  sedan's actual speed that evening, and the driver's own unverified
+  estimate of what she was doing. Neither establishes that risk was actually
+  elevated at 6:40pm on this stretch — they tell us which direction each
+  factor would push it, if we knew the true speed.
 - **Exposure** is how much opportunity there is for the event at all — traffic
   volume multiplied by how much animal activity overlaps with it. Knowing one
   kangaroo crossed the eastern verge once tells you nothing about how often
@@ -93,9 +98,10 @@ you'll use all semester.
   for it would be interpretation dressed up as fact. The driver's speed
   estimate has no independent record to check it against — no fixed camera,
   no data logger, just her recollection. The carer's notes establish the
-  animal's species, sex, and cause of death, but not how long it had been
-  near the road, or whether this stretch has a prior collision history at
-  all. The session asks you to keep those categories separate rather than
+  animal's species and sex, and record injuries consistent with vehicle
+  impact — the animal was deceased on arrival — but not how long it had
+  been near the road, or whether this stretch has a prior collision history
+  at all. The session asks you to keep those categories separate rather than
   resolve them by picking whichever answer makes the best story.
 
 This case is a single, deliberately detailed example — not a substitute for a
@@ -120,22 +126,29 @@ be "true" or "false," only more or less well-supported by what you find.
 "Which conditions predict roadside presence?" is a research question: you
 could spend a career on it. What can be shown wrong is a **hypothesis**: a
 specific, falsifiable claim you derive from the question and test against
-evidence. "Roadside presence increases with distance to the nearest permanent
-water source" is a hypothesis, because a count of sightings against distance
-could disprove it.
+evidence. For example, "roadside sightings are more frequent within 200
+metres of a permanent water source than farther away" is hypothesis-shaped —
+not a finding, just the shape a testable claim takes — because a count of
+sightings against distance could disprove it.
 
-This distinction fixes three familiar verdicts:
+This distinction fixes three familiar verdicts. None of the example
+hypotheses below report a real finding — each is only a template for what a
+falsifiable, measurable claim looks like: a predictor, an outcome, a
+comparison, and where it helps, a threshold or a time period.
 
 - "kangaroos just jump around" → question: which conditions predict roadside
-  presence? → hypothesis: roadside presence increases with distance to the
-  nearest permanent water source.
+  presence? → example hypothesis: recorded sightings within 200 metres of a
+  permanent water source are higher, over the same three-month period, than
+  sightings at an otherwise similar site more than 1 kilometre away.
 - "more warning signs would help" → question: does signage change driver or
-  animal behaviour? → hypothesis: strike counts on a signed stretch are no
-  lower than on a matched unsigned stretch, once traffic volume is held
-  constant.
+  animal behaviour? → example hypothesis: strike counts per kilometre on a
+  signed stretch, over a 12-month period, are no lower than on a matched
+  unsigned stretch, once traffic volume is held constant.
 - "the new device obviously works" → question: what does the device actually
-  detect, and under what conditions was it tested? → hypothesis: the
-  device's detection rate at dusk is no better than at midday.
+  detect, and under what conditions was it tested? → example hypothesis: the
+  device's detection rate for animals crossing at dusk is no higher than its
+  detection rate for the same crossing pattern tested at midday, across an
+  equal number of trials.
 
 The skill this unit is after is producing that kind of testable hypothesis,
 not arriving with the verdict already chosen.
@@ -146,10 +159,11 @@ Rowden, Steinhardt & Sheehan (2008), ["Road crashes involving animals in
 Australia"](https://eprints.qut.edu.au/224514/1/15299a.pdf), *Accident
 Analysis & Prevention* 40(6) — read this before the session. It's the real,
 peer-reviewed source behind the outcome-measure problem above: matching
-insurance, police, and wildlife-carer records against each other, the
-authors found that official animal-crash figures substantially undercount
-the real total, precisely because each record type only captures the cases
-that trigger it.
+their own in-depth study of serious-injury crashes against official
+government crash records, the authors found the official figures
+substantially undercount animal-related crashes, because many incidents
+that show up in the in-depth data never reach the record type that gets
+officially counted.
 
 ## The semester ahead
 

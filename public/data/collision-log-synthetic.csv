@@ -1,0 +1,91 @@
+incident_id,date,time,day_period,road_name,region,speed_limit_kmh,vehicle_type,species,outcome,report_source,data_quality_flag
+REC-0001,2023-01-04,05:50,dawn,Tindarra Loop Road,Central Tablelands,80,ute,red kangaroo,no animal injury recorded,insurance claim,
+REC-0002,2023-01-19,01:10,night,Coorabin Road,Northern Ranges,110,motorcycle,swamp wallaby,"animal injured, fled",insurance claim,
+REC-0003,2023-01-22,06:00,dawn,Merricourt Highway,Coastal Corridor,110,motorcycle,eastern grey kangaroo,"animal injured, treated by carer",road authority maintenance log,
+REC-0004,2023-02-17,23:40,night,Coorabin Road,Northern Ranges,80,bus,swamp wallaby,"animal injured, fled",police,
+REC-0005,2023-03-16,05:45,dawn,Merricourt Highway,Coastal Corridor,100,ute,red kangaroo,animal deceased on scene,insurance claim,
+REC-0006,2023-04-01,23:05,night,Coorabin Road,Northern Ranges,110,motorcycle,eastern grey kangaroo,no animal injury recorded,police,
+REC-0007,2023-04-09,18:00,dusk,Tindarra Loop Road,Central Tablelands,100,ute,red kangaroo,"vehicle damage only, animal not located",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0008,2023-04-13,17:00,dusk,Bunjalung Ridge Road,Central Tablelands,110,SUV,swamp wallaby,"vehicle damage only, animal not located",wildlife carer,
+REC-0009,2023-05-03,09:15,day,Merricourt Highway,Coastal Corridor,80,bus,red kangaroo,no animal injury recorded,road authority maintenance log,
+REC-0010,2023-05-03,19:40,dusk,Grellan Creek Road,Northern Ranges,110,truck,eastern grey kangaroo,animal deceased on scene,insurance claim,
+REC-0011,2023-05-24,18:35,dusk,Old Bindari Road,Western Slopes,80,ute,common wombat,"animal injured, treated by carer",insurance claim,
+REC-0012,2023-05-28,00:45,night,Bunjalung Ridge Road,Central Tablelands,100,motorcycle,eastern grey kangaroo,"vehicle damage only, animal not located",insurance claim,
+REC-0013,2023-06-19,12:20,day,Coorabin Road,Northern Ranges,100,motorcycle,wallaroo,no animal injury recorded,wildlife carer,
+REC-0014,2023-06-27,18:00,dusk,Grellan Creek Road,Northern Ranges,80,sedan,eastern grey kangaroo,"animal injured, fled",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0015,2023-07-01,08:25,day,Old Bindari Road,Western Slopes,60,truck,common wombat,no animal injury recorded,police,
+REC-0016,2023-07-10,08:40,day,Wombaroo Pass,Western Slopes,80,SUV,,"vehicle damage only, animal not located",wildlife carer,species not recorded
+REC-0017,2023-07-28,22:10,night,Grellan Creek Road,Northern Ranges,110,bus,eastern grey kangaroo,"vehicle damage only, animal not located",insurance claim,
+REC-0018,2023-08-16,06:50,dawn,Grellan Creek Road,Northern Ranges,,motorcycle,common wombat,animal deceased on scene,insurance claim,
+REC-0019,2023-09-28,06:20,dawn,Old Bindari Road,Western Slopes,100,sedan,eastern grey kangaroo,"animal injured, treated by carer",police,
+REC-0020,2023-10-11,07:55,dawn,Wombaroo Pass,Western Slopes,60,bus,wallaroo,"vehicle damage only, animal not located",wildlife carer,
+REC-0021,2023-10-23,05:05,dawn,Tindarra Loop Road,Central Tablelands,60,ute,eastern grey kangaroo,"vehicle damage only, animal not located",insurance claim,
+REC-0022,2024-01-02,00:50,night,Merricourt Highway,Coastal Corridor,110,truck,short-beaked echidna,animal deceased on scene,road authority maintenance log,
+REC-0023,2024-01-16,19:30,dusk,Tindarra Loop Road,Central Tablelands,80,bus,wallaroo,animal deceased on scene,police,
+REC-0024,2024-01-22,02:55,night,Coorabin Road,Northern Ranges,100,truck,eastern grey kangaroo,"vehicle damage only, animal not located",road authority maintenance log,
+REC-0025,2024-01-23,18:00,dusk,Grellan Creek Road,Northern Ranges,110,truck,eastern grey kangaroo,"vehicle damage only, animal not located",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0026,2024-01-25,14:30,day,Coorabin Road,Northern Ranges,80,SUV,common wombat,animal deceased on scene,wildlife carer,
+REC-0027,2024-03-03,06:45,dawn,Wombaroo Pass,Western Slopes,100,truck,swamp wallaby,"vehicle damage only, animal not located",road authority maintenance log,
+REC-0028,2024-04-21,19:30,dusk,Wombaroo Pass,Western Slopes,80,motorcycle,eastern grey kangaroo,animal deceased on scene,insurance claim,
+REC-0029,2024-05-19,19:40,dusk,Merricourt Highway,Coastal Corridor,110,truck,swamp wallaby,animal deceased on scene,wildlife carer,
+REC-0030,2024-06-24,12:35,day,Grellan Creek Road,Northern Ranges,100,truck,wallaroo,animal deceased on scene,insurance claim,
+REC-0031,2024-07-20,18:00,dusk,Bunjalung Ridge Road,Central Tablelands,100,bus,,"vehicle damage only, animal not located",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0032,2024-08-06,06:00,dawn,Tindarra Loop Road,Central Tablelands,80,truck,wallaroo,"animal injured, treated by carer",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0033,2024-08-13,16:25,day,Old Bindari Road,Western Slopes,110,sedan,red kangaroo,"animal injured, treated by carer",police,
+REC-0034,2024-08-15,03:30,night,Wombaroo Pass,Western Slopes,80,ute,common wombat,animal deceased on scene,wildlife carer,
+REC-0035,2024-09-03,04:00,night,Old Bindari Road,Western Slopes,100,bus,eastern grey kangaroo,"vehicle damage only, animal not located",wildlife carer,
+REC-0036,2024-09-05,04:10,night,Old Bindari Road,Western Slopes,80,truck,common wombat,no animal injury recorded,wildlife carer,
+REC-0037,2024-09-15,17:25,dusk,Tindarra Loop Road,Central Tablelands,100,truck,red kangaroo,animal deceased on scene,wildlife carer,
+REC-0038,2024-09-15,18:40,dusk,Bunjalung Ridge Road,Central Tablelands,60,SUV,swamp wallaby,animal deceased on scene,police,
+REC-0039,2024-09-18,17:15,dusk,Coorabin Road,Northern Ranges,80,sedan,swamp wallaby,animal deceased on scene,road authority maintenance log,
+REC-0040,2024-10-15,19:40,dusk,Merricourt Highway,Coastal Corridor,80,SUV,red kangaroo,"animal injured, fled",road authority maintenance log,
+REC-0041,2024-11-07,13:25,day,Bunjalung Ridge Road,Central Tablelands,100,sedan,red kangaroo,animal deceased on scene,police,
+REC-0042,2024-12-17,17:25,dusk,Merricourt Highway,Coastal Corridor,80,truck,eastern grey kangaroo,"animal injured, fled",wildlife carer,
+REC-0043,2025-01-09,04:05,night,Bunjalung Ridge Road,Central Tablelands,80,ute,eastern grey kangaroo,"animal injured, fled",road authority maintenance log,
+REC-0044,2025-01-12,19:25,dusk,Wombaroo Pass,Western Slopes,80,sedan,eastern grey kangaroo,animal deceased on scene,wildlife carer,
+REC-0045,2025-01-15,06:00,dawn,Old Bindari Road,Western Slopes,80,truck,eastern grey kangaroo,no animal injury recorded,wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0046,2025-01-19,06:00,dawn,Grellan Creek Road,Northern Ranges,80,truck,short-beaked echidna,"animal injured, fled",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0047,2025-01-23,18:10,dusk,Merricourt Highway,Coastal Corridor,110,truck,,animal deceased on scene,insurance claim,species not recorded
+REC-0048,2025-01-28,07:20,dawn,Tindarra Loop Road,Central Tablelands,80,motorcycle,common wombat,animal deceased on scene,wildlife carer,
+REC-0049,2025-03-21,18:15,dusk,Grellan Creek Road,Northern Ranges,,motorcycle,red kangaroo,animal deceased on scene,road authority maintenance log,
+REC-0050,2025-04-28,05:35,dawn,Tindarra Loop Road,Central Tablelands,80,SUV,eastern grey kangaroo,animal deceased on scene,police,
+REC-0051,2025-06-02,18:55,dusk,Coorabin Road,Northern Ranges,80,truck,eastern grey kangaroo,animal deceased on scene,insurance claim,
+REC-0052,2025-06-06,02:40,night,Merricourt Highway,Coastal Corridor,100,truck,swamp wallaby,animal deceased on scene,wildlife carer,
+REC-0053,2025-06-08,05:50,dawn,Coorabin Road,Northern Ranges,100,SUV,eastern grey kangaroo,animal deceased on scene,insurance claim,
+REC-0054,2025-06-21,18:10,dusk,Old Bindari Road,Western Slopes,60,SUV,,"vehicle damage only, animal not located",police,species not recorded
+REC-0055,2025-07-07,06:40,dawn,Grellan Creek Road,Northern Ranges,,truck,eastern grey kangaroo,animal deceased on scene,wildlife carer,
+REC-0056,2025-07-08,06:00,dawn,Coorabin Road,Northern Ranges,100,ute,,"vehicle damage only, animal not located",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0057,2025-07-15,06:30,dawn,Tindarra Loop Road,Central Tablelands,110,motorcycle,eastern grey kangaroo,"animal injured, fled",wildlife carer,
+REC-0058,2025-08-17,18:50,dusk,Grellan Creek Road,Northern Ranges,80,bus,eastern grey kangaroo,"animal injured, fled",police,
+REC-0059,2025-08-23,19:55,dusk,Coorabin Road,Northern Ranges,80,SUV,wallaroo,"vehicle damage only, animal not located",insurance claim,
+REC-0060,2025-09-18,15:10,day,Wombaroo Pass,Western Slopes,80,ute,eastern grey kangaroo,animal deceased on scene,wildlife carer,
+REC-0061,2025-10-26,18:50,dusk,Old Bindari Road,Western Slopes,80,ute,wallaroo,animal deceased on scene,police,
+REC-0062,2025-11-02,18:55,dusk,Wombaroo Pass,Western Slopes,80,motorcycle,wallaroo,animal deceased on scene,road authority maintenance log,
+REC-0063,2025-11-06,18:00,dusk,Grellan Creek Road,Northern Ranges,80,SUV,eastern grey kangaroo,"animal injured, treated by carer",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0064,2025-12-09,18:35,dusk,Merricourt Highway,Coastal Corridor,110,ute,eastern grey kangaroo,"animal injured, fled",road authority maintenance log,
+REC-0065,2025-12-16,05:10,dawn,Grellan Creek Road,Northern Ranges,80,sedan,red kangaroo,"animal injured, fled",insurance claim,
+REC-0066,2025-12-19,22:55,night,Bunjalung Ridge Road,Central Tablelands,,SUV,eastern grey kangaroo,animal deceased on scene,wildlife carer,
+REC-0067,2025-12-20,06:00,dawn,Coorabin Road,Northern Ranges,60,ute,,"animal injured, fled",wildlife carer,species not recorded
+REC-0068,2025-12-22,13:50,day,Bunjalung Ridge Road,Central Tablelands,100,ute,eastern grey kangaroo,animal deceased on scene,insurance claim,
+REC-0069,2026-02-11,21:35,night,Old Bindari Road,Western Slopes,80,ute,red kangaroo,"vehicle damage only, animal not located",insurance claim,
+REC-0070,2026-02-20,11:25,day,Tindarra Loop Road,Central Tablelands,80,motorcycle,wallaroo,"animal injured, fled",insurance claim,
+REC-0071,2026-03-02,09:00,day,Grellan Creek Road,Northern Ranges,60,motorcycle,red kangaroo,animal deceased on scene,wildlife carer,
+REC-0072,2026-03-18,07:15,dawn,Coorabin Road,Northern Ranges,60,ute,red kangaroo,"animal injured, treated by carer",police,
+REC-0073,2026-03-20,18:00,dusk,Old Bindari Road,Western Slopes,80,motorcycle,red kangaroo,animal deceased on scene,wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0074,2026-04-09,15:10,day,Merricourt Highway,Coastal Corridor,80,truck,eastern grey kangaroo,animal deceased on scene,wildlife carer,
+REC-0075,2026-04-15,17:20,dusk,Merricourt Highway,Coastal Corridor,110,sedan,eastern grey kangaroo,"animal injured, treated by carer",wildlife carer,
+REC-0076,2026-04-17,06:50,dawn,Wombaroo Pass,Western Slopes,100,bus,,"animal injured, treated by carer",wildlife carer,species not recorded
+REC-0077,2026-04-17,11:35,day,Wombaroo Pass,Western Slopes,110,SUV,red kangaroo,"animal injured, treated by carer",road authority maintenance log,
+REC-0078,2026-05-09,19:20,dusk,Coorabin Road,Northern Ranges,100,ute,short-beaked echidna,"animal injured, treated by carer",police,
+REC-0079,2026-05-14,17:05,dusk,Coorabin Road,Northern Ranges,,bus,red kangaroo,"animal injured, fled",police,
+REC-0080,2026-05-16,03:45,night,Bunjalung Ridge Road,Central Tablelands,60,motorcycle,red kangaroo,animal deceased on scene,police,
+REC-0081,2026-05-21,11:05,day,Wombaroo Pass,Western Slopes,60,motorcycle,swamp wallaby,animal deceased on scene,police,
+REC-0082,2026-06-01,17:35,dusk,Tindarra Loop Road,Central Tablelands,110,truck,eastern grey kangaroo,animal deceased on scene,road authority maintenance log,
+REC-0083,2026-06-14,05:50,dawn,Grellan Creek Road,Northern Ranges,80,truck,eastern grey kangaroo,"animal injured, treated by carer",road authority maintenance log,
+REC-0084,2026-06-24,18:00,dusk,Merricourt Highway,Coastal Corridor,110,SUV,swamp wallaby,"vehicle damage only, animal not located",wildlife carer,"carer shift-start time recorded, not incident time"
+REC-0085,2026-07-25,19:20,dusk,Merricourt Highway,Coastal Corridor,100,sedan,wallaroo,"animal injured, fled",police,
+REC-0086,2026-08-25,17:15,dusk,Coorabin Road,Northern Ranges,80,ute,red kangaroo,"animal injured, treated by carer",insurance claim,
+REC-0087,2026-08-27,10:40,day,Coorabin Road,Northern Ranges,80,sedan,common wombat,"animal injured, treated by carer",wildlife carer,
+REC-0088,2026-10-24,21:10,night,Coorabin Road,Northern Ranges,,sedan,red kangaroo,"vehicle damage only, animal not located",police,
+REC-0089,2026-11-12,02:50,night,Wombaroo Pass,Western Slopes,110,SUV,common wombat,no animal injury recorded,wildlife carer,
+REC-0090,2026-11-12,13:10,day,Wombaroo Pass,Western Slopes,80,bus,eastern grey kangaroo,"animal injured, treated by carer",police,

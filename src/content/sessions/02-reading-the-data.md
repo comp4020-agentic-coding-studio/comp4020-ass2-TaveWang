@@ -14,6 +14,34 @@ related:
   - lectures/week-02
 ---
 
+## The dataset
+
+Download the [collision log](/data/collision-log-synthetic.csv) (CSV, 90
+records, 2023–2026). It's a synthetic dataset built by the teaching team for
+this unit — modelled on how Australian jurisdictions structure animal-strike
+reports (police, insurance, wildlife-carer, and road-authority logs) — not a
+record of real incidents. Treat every figure in it as teaching material, not
+evidence about any real road.
+
+**Data dictionary**
+
+| Column | Meaning |
+| --- | --- |
+| `incident_id` | Unique record identifier |
+| `date`, `time` | When the incident was logged |
+| `day_period` | `dawn` / `day` / `dusk` / `night`, derived from `time` |
+| `road_name`, `region` | Fictional road and region names |
+| `speed_limit_kmh` | The posted limit at the site, not a measured vehicle speed; blank where not recorded |
+| `vehicle_type` | Vehicle involved |
+| `species` | Animal species; blank where not recorded |
+| `outcome` | What the reporting source observed — not a single, agreed severity scale |
+| `report_source` | Which record type produced the row: `police`, `insurance claim`, `wildlife carer`, or `road authority maintenance log` |
+| `data_quality_flag` | A known issue with that specific row, where one exists |
+
+The log contains at least one deliberate recording artefact — a pattern that
+reflects how a record got made, not when the incident happened. Finding it
+is part of this session.
+
 ## Before the session
 
 Load the dataset in whatever tool you're comfortable with. No analysis yet —
