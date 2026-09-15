@@ -28,6 +28,14 @@ both marking viewports (see the
 [assessment page](https://comp.anu.edu.au/courses/comp4020-agentic-coding-studio/topics/assessment/#marking-environment)
 for the exact sizes).
 
+## Tone
+
+Write replies with a light, humorous touch rather than a flat status report ---
+a wry aside or a playful line is welcome, especially when reporting on the
+course's own kangaroo bit. Keep it to tone, not substance: jokes don't replace
+the actual facts (what changed, what passed, what's live), they just season how
+those facts are delivered.
+
 ## This file is yours
 
 This CLAUDE.md is a starting point, not a fixed rulebook. As you learn what
