@@ -168,3 +168,34 @@ check:evidence`, the pre-commit secret-scan pattern run manually over staged
 content, and the lecture, both week 1 and week 2 session pages, and the deck
 screenshotted at both marking viewports — including the new data-dictionary
 table, which wraps without horizontal overflow at 390px.
+
+Week 2 was then built out in full, continuing directly from week 1's theme
+(one incident can't establish a pattern) into a harder version of the same
+lesson: even a whole dataset can mislead if its first visible pattern is
+trusted before anyone asks what produced it. The lecture builds a
+day-period distribution from the synthetic collision log (dawn 22, day 17,
+dusk 34, night 17), lets the crepuscular explanation look sufficient for a
+while — with one real, verified reading (Henderson, Vernes, Körtner &
+Rajaratnam, 2018, cross-checked against Crossref's API after both the PMC
+and MDPI copies blocked direct fetches) cited for exactly what it measured,
+movement rate, not collision risk — then walks back into the dataset to
+find that eleven of the dusk-adjacent records sit at exactly 06:00 or
+18:00, all from wildlife-carer reports, flagged as shift-start times rather
+than incident times. The paired session hands students the same discovery
+as a 50-minute in-class sequence (predict, build the first distribution,
+write down the tempting one-line explanation before checking it, audit the
+timestamps/`report_source`/`data_quality_flag` in that order, rebuild, and
+an exit ticket), with a formative, explicitly ungraded "Suspiciously
+Punctual Kangaroo Memo" as the pair output. A new ten-slide deck
+(`src/decks/week-02.deck.mdx`) carries the same arc for live delivery
+without reproducing the lecture's prose. Both the lecture and session moved
+from Idris Fenn to Marisol Quaye as teacher, matching her existing bio as
+lead investigator on the collision dataset and keeping continuity with the
+week 3 session she already teaches. Verified the same way as every round:
+`pnpm check` and `pnpm check:evidence` green, the pre-commit secret-scan
+pattern run manually over staged content, the lecture and session
+screenshotted at both marking viewports (including a full top-to-bottom
+mobile pass), and the new deck checked slide-by-slide — all ten sections
+confirmed by walking Reveal's slide navigation under Playwright, since a
+plain full-page screenshot of a Reveal deck only ever captures the first
+slide.
