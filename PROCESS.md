@@ -380,3 +380,54 @@ slide-by-slide under Playwright (tracking Reveal's own `past`/`present`/
 `future` section classes, since this project doesn't expose a `window.Reveal`
 global to query directly) to rule out the same clipping and overflow class
 of bug the source alone can't show.
+
+Weeks 7 to 12 closed out the course, each week built to solve a genuinely
+different kind of problem rather than repeating the same chart-then-bug
+shape: choosing an engineering measure under a real budget/approval
+constraint (7), untangling fault, insurance and contractual liability into
+four separate questions (8), a safety-first roadside-response tabletop with
+no animal contact at any point (9), a plain-English risk brief tested
+against a cold read rather than assumed to work (10), an evidence-transfer
+exercise built around two real overseas case studies and an explicit
+outcome-type ladder (11), and a proposal-defence clinic that closes the
+loop into the final project's own marking spec (12). Four dangling
+resource promises inherited from the original stubs were fixed by building
+the missing material directly into the lecture rather than patching the
+session around a gap: week 8's "two case summaries linked from the
+lecture" became three fictional cases (own-vehicle strike, rental
+single-vehicle accident, and an alleged-prior-knowledge claim tested
+against the NSW Civil Liability Act s45 standard) written into the lecture
+itself; week 9 dropped an unconfirmed "practitioner guest" and a false
+claim that its checklist was a required final-project reference, rebuilding
+the lecture around three real bystander tasks and a verified WIRES contact
+number instead; week 10's lecture no longer claims a non-existent
+"brief due this week" deadline, describing the session's own ungraded
+drafting exercise accurately instead; and week 11's "two comparative case
+studies linked from the lecture" became the Seiler (2005) Sweden-moose and
+Bissonette & Rosa (2012) Utah-deer cases, written in full with citation,
+design, and result, plus one deliberate discussion tension between them
+(the Utah case shows no end-of-fence effect, against week 7's general point
+that one often appears). Every citation newly introduced this round —
+Rytwinski et al. (2016), the NSW Civil Liability Act s45 text and Brodie v
+Singleton Shire Council on AustLII, St John Australia's DRSABCD fact sheet,
+Bagagiolo et al. (2019), Seiler (2005), and Bissonette & Rosa (2012) — was
+checked against its own primary source before being written in, and where
+a source didn't cover a claim this round wanted to make (a specific
+"don't approach" species list, a claims-cost figure), the text was written
+to reflect only what was actually verified rather than overclaiming
+provenance. Building six new decks surfaced one real defect, structurally
+identical to a prior round's: two tables (one in week 8's lecture, one in
+its deck) had an empty first header cell, which the theme's own
+accessibility check flags as `empty-table-header` — fixed in both files by
+giving that column the real label "Aspect" instead of leaving it blank.
+Verified the same way as every prior round: `pnpm check` (typecheck, build,
+and the theme's own accessibility and broken-link checks across all 52
+pages) and `pnpm check:evidence` green, a manual secret-scan over the
+twelve changed and six new files, all twelve lecture and session pages and
+all six decks screenshotted at both marking viewports, and every deck
+walked slide-by-slide under Playwright with the same bbox-versus-viewBox
+and horizontal-overflow checks as every prior round — which found none,
+the only visual oddity being a browser toolbar element duplicated by
+Playwright's own full-page screenshot stitching on tall pages, confirmed
+against a normal scrolled viewport screenshot of the same content to be a
+capture artifact rather than a real rendering fault.
