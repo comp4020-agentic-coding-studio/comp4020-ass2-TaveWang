@@ -42,34 +42,44 @@ coordinates or a road network you could plot on a real map.
 Neither dataset gives you coordinates, so nothing in this session asks you
 to plot an exact collision location. Instead, a **road schematic** shows
 counts or rates at the road level — one bar or one mark per road, arranged
-for comparison, not for geography. Here's the format, using this week's raw
-counts as the example:
+for comparison, not for geography. Here's the format, shown with four
+hypothetical roads and made-up counts — not this week's actual data, which
+you'll tally and rank for yourself in step 2 below:
 
-<svg viewBox="0 0 640 260" width="100%" height="260" role="img" aria-label="Schematic bar chart of raw recorded collisions by road: Coorabin Road 18, Grellan Creek Road 14, Merricourt Highway 14, Wombaroo Pass 13, Old Bindari Road 11, Tindarra Loop Road 11, Bunjalung Ridge Road 9">
-  <rect x="180" y="10" width="216" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="45" width="168" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="80" width="168" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="115" width="156" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="150" width="132" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="185" width="132" height="18" rx="3" fill="var(--at-primary)" />
-  <rect x="180" y="220" width="108" height="18" rx="3" fill="var(--at-primary)" />
+<svg viewBox="0 0 640 160" width="100%" height="160" role="img" aria-label="Schematic bar chart illustrating the format with hypothetical data: Road A 5, Road B 4, Road C 3, Road D 2">
+  <rect x="180" y="10" width="200" height="18" rx="3" fill="var(--at-primary)" />
+  <rect x="180" y="45" width="160" height="18" rx="3" fill="var(--at-primary)" />
+  <rect x="180" y="80" width="120" height="18" rx="3" fill="var(--at-primary)" />
+  <rect x="180" y="115" width="80" height="18" rx="3" fill="var(--at-primary)" />
+  <text x="172" y="23" text-anchor="end" font-size="13" fill="currentColor">Road A</text>
+  <text x="388" y="23" text-anchor="start" font-size="13" fill="currentColor">5</text>
+  <text x="172" y="58" text-anchor="end" font-size="13" fill="currentColor">Road B</text>
+  <text x="348" y="58" text-anchor="start" font-size="13" fill="currentColor">4</text>
+  <text x="172" y="93" text-anchor="end" font-size="13" fill="currentColor">Road C</text>
+  <text x="308" y="93" text-anchor="start" font-size="13" fill="currentColor">3</text>
+  <text x="172" y="128" text-anchor="end" font-size="13" fill="currentColor">Road D</text>
+  <text x="268" y="128" text-anchor="start" font-size="13" fill="currentColor">2</text>
 </svg>
 
-| Road | Raw collisions |
-| --- | --- |
-| Coorabin Road | 18 |
-| Grellan Creek Road | 14 |
-| Merricourt Highway | 14 |
-| Wombaroo Pass | 13 |
-| Old Bindari Road | 11 |
-| Tindarra Loop Road | 11 |
-| Bunjalung Ridge Road | 9 |
-
-Bar length is proportional to raw count only. Road order, spacing and bar
+Bar length is proportional to count only. Road order, spacing and bar
 position are arbitrary — this schematic represents aggregated records by
-road, not any real geography, road shape, or exact collision location.
-Building the equivalent schematic for a rate instead of a raw count — and
-noticing how much the bars reorder — is part of this session.
+road, not any real geography, road shape, or exact collision location. You
+will build the actual raw-count schematic, and the equivalent schematic for
+a rate instead of a raw count, for this week's seven real roads during the
+session — that's where you'll see how much the bars reorder.
+
+## The exposure formula
+
+You'll need this in step 3 below, before the lecture that debriefs this
+session has a chance to give it to you:
+
+> Recorded collisions per million vehicle-kilometres
+> = recorded collisions / (average daily traffic × days observed × road
+> length in kilometres) × 1,000,000
+
+Use an observation window of **1,409 days** for every road — 4 January 2023
+to 12 November 2026, counting both dates. Every road must be measured over
+the same span, or the comparison between roads stops being fair.
 
 ## Before the session
 
@@ -95,9 +105,8 @@ the same pairs as week 2.
 3. **10 minutes — join and calculate.** Join the road network table to
    your counts by `road_name`. For each road, calculate collisions per
    kilometre, then collisions per million vehicle-kilometres using the
-   formula from this week's lecture and an observation window of 1,408
-   days (the collision log's full date range). Show your working for at
-   least two roads.
+   exposure formula above and its stated 1,409-day observation window. Show
+   your working for at least two roads.
 4. **10 minutes — choose a definition and re-rank.** Using your calculated
    rates, decide on an explicit hotspot definition (a fixed threshold — for
    example, "at least double the median rate" — not a vague impression),
@@ -131,5 +140,5 @@ threshold against a challenge, not a mark on which road you picked.
 
 Keep a copy of everything above. The week 6 assignment's hotspot analysis
 asks you to state an exposure adjustment and defend a hotspot threshold for
-a dataset you haven't seen before — this session is where you practise
-doing that once, on a dataset you have.
+the same regional dataset — this session is where you practise doing that
+once, before you do it again for the assignment.

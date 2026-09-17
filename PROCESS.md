@@ -269,3 +269,51 @@ accessibility violation (an unlabelled table header on week 3's worked-
 calculation slide) and one mobile-legibility issue (an eight-column table
 in the week 3 session clipping at the phone viewport) were caught this way
 and fixed before commit.
+
+A later correction pass on weeks 3 and 4 fixed a run of smaller defects
+rather than adding content. Both of week 4's SVG bar charts had been drawn
+with heights chosen by eye instead of computed: the kinetic-energy chart
+wasn't actually proportional to its own stated values, and the stopping-
+distance chart was missing its 80 km/h bar outright. Both were rebuilt with
+heights computed directly from the displayed figures — checked afterwards
+by rendering the fixed deck and confirming the 80 km/h bar measures exactly
+four times the 40 km/h bar, as the kinetic-energy relationship requires —
+and that same rendering pass caught a second bug the numbers alone didn't
+show: the tallest bar's label sat close enough to the top of the SVG's
+viewBox to clip, which only a screenshot, not the source, would reveal.
+Both weeks' bar charts also picked up literal `<text>` labels alongside
+their existing `aria-label`, since an accessibility description narrates a
+chart to a screen reader without doing anything for a sighted student
+looking at an unlabelled bar. On week 3, the session's own "schematic, not
+a map" example was quietly spoiling the session it introduced: it displayed
+the real seven-road raw-count ranking before asking students to derive that
+same ranking themselves a few steps later, so it was replaced with a
+clearly-labelled four-road hypothetical that teaches the chart format
+without the answer attached — and the exposure-adjustment formula, which
+previously only appeared in the following lecture, was copied directly into
+the session page, since the session runs *before* the lecture that
+debriefs it and had been silently assuming students already had a formula
+they hadn't been given yet. The observation window switched from an
+exclusive 1,408-day count to an inclusive 1,409-day count (4 January 2023
+to 12 November 2026, counting both endpoints), which shifted Old Bindari
+Road's exposure-adjusted rate from 3.95 to 3.94 and the dataset median from
+1.065 to 1.06 — recomputed consistently across the week 3 lecture, session
+and deck; the hotspot conclusion itself didn't move. Two unsupported
+assessment claims were removed rather than reworded: week 4's session had
+invented a "physics half" of the week 6 assignment that doesn't exist in
+`assignment-1.md`, and week 3's session had claimed the assignment's
+hotspot analysis uses a dataset students "haven't seen before," when the
+assignment brief states it reuses the same regional dataset from these
+sessions. Both are now described as preparation for the assignment without
+naming a structure or a dataset condition the assignment doesn't actually
+have. Finally, "Old Bindari Road has fewer than half as many recorded
+collisions" (11 against Coorabin Road's 18 — not actually half) became
+"fewer recorded collisions," and week 4's worked kinetic-energy example was
+changed to show `(40 / 3.6)²` rather than the rounded `11.1²`, so the
+displayed working matches the full-precision figure the slide already
+reported rather than implying a rounded intermediate produced it. Verified
+the same way again: `pnpm check` and `pnpm check:evidence` green, a manual
+secret-scan over the six changed files, all four content pages
+screenshotted at both marking viewports, and both decks walked slide-by-
+slide under Playwright at both viewports — where the clipped chart label
+above was actually caught, then fixed and re-verified before commit.

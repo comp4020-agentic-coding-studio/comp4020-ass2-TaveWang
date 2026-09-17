@@ -88,9 +88,7 @@ same pairs as previous weeks.
 This session's output is the **Physics Does Not Negotiate Worksheet** — a
 one-page pair submission. It's **formative and ungraded**: it's practice at
 running a simplified model and stating its limits, not a mark on your
-arithmetic. It may support how you interpret the physics half of the week 6
-assignment, but it does not introduce any new assessed requirement of its
-own.
+arithmetic. It does not introduce any new assessed requirement of its own.
 
 **The Physics Does Not Negotiate Worksheet**
 

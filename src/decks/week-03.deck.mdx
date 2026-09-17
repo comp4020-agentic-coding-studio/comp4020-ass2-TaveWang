@@ -35,6 +35,20 @@ through why the two differ.
   <rect x="180" y="150" width="132" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="185" width="132" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="220" width="108" height="18" rx="3" fill="var(--at-primary)" />
+  <text x="172" y="23" text-anchor="end" font-size="13" fill="currentColor">Coorabin Road</text>
+  <text x="404" y="23" text-anchor="start" font-size="13" fill="currentColor">18</text>
+  <text x="172" y="58" text-anchor="end" font-size="13" fill="currentColor">Grellan Creek Road</text>
+  <text x="356" y="58" text-anchor="start" font-size="13" fill="currentColor">14</text>
+  <text x="172" y="93" text-anchor="end" font-size="13" fill="currentColor">Merricourt Highway</text>
+  <text x="356" y="93" text-anchor="start" font-size="13" fill="currentColor">14</text>
+  <text x="172" y="128" text-anchor="end" font-size="13" fill="currentColor">Wombaroo Pass</text>
+  <text x="344" y="128" text-anchor="start" font-size="13" fill="currentColor">13</text>
+  <text x="172" y="163" text-anchor="end" font-size="13" fill="currentColor">Old Bindari Road</text>
+  <text x="320" y="163" text-anchor="start" font-size="13" fill="currentColor">11</text>
+  <text x="172" y="198" text-anchor="end" font-size="13" fill="currentColor">Tindarra Loop Road</text>
+  <text x="320" y="198" text-anchor="start" font-size="13" fill="currentColor">11</text>
+  <text x="172" y="233" text-anchor="end" font-size="13" fill="currentColor">Bunjalung Ridge Road</text>
+  <text x="296" y="233" text-anchor="start" font-size="13" fill="currentColor">9</text>
 </svg>
 
 Schematic aggregate view — bar length only, not a real road network.
@@ -79,8 +93,8 @@ denominator.
 | Collisions | 18 | 11 |
 | Traffic (ADT) | 2,800 | 220 |
 | Length | 38 km | 9 km |
-| Days observed | 1,408 | 1,408 |
-| **Rate / million veh-km** | **0.12** | **3.95** |
+| Days observed | 1,409 | 1,409 |
+| **Rate / million veh-km** | **0.12** | **3.94** |
 
 Fewer collisions, thirty times the rate. Same formula, same period, opposite
 conclusion.
@@ -89,7 +103,7 @@ conclusion.
 
 ## The revised ranking
 
-<svg viewBox="0 0 640 260" width="100%" height="260" role="img" aria-label="Schematic bar chart of collisions per million vehicle-kilometres by road: Old Bindari Road 3.95, Tindarra Loop Road 1.86, Wombaroo Pass 1.09, Bunjalung Ridge Road 1.07, Grellan Creek Road 0.50, Coorabin Road 0.12, Merricourt Highway 0.04">
+<svg viewBox="0 0 640 260" width="100%" height="260" role="img" aria-label="Schematic bar chart of collisions per million vehicle-kilometres by road: Old Bindari Road 3.94, Tindarra Loop Road 1.86, Wombaroo Pass 1.09, Bunjalung Ridge Road 1.06, Grellan Creek Road 0.50, Coorabin Road 0.12, Merricourt Highway 0.04">
   <rect x="180" y="10" width="158" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="45" width="74" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="80" width="43" height="18" rx="3" fill="var(--at-primary)" />
@@ -97,6 +111,20 @@ conclusion.
   <rect x="180" y="150" width="20" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="185" width="5" height="18" rx="3" fill="var(--at-primary)" />
   <rect x="180" y="220" width="2" height="18" rx="3" fill="var(--at-primary)" />
+  <text x="172" y="23" text-anchor="end" font-size="13" fill="currentColor">Old Bindari Road</text>
+  <text x="346" y="23" text-anchor="start" font-size="13" fill="currentColor">3.94</text>
+  <text x="172" y="58" text-anchor="end" font-size="13" fill="currentColor">Tindarra Loop Road</text>
+  <text x="262" y="58" text-anchor="start" font-size="13" fill="currentColor">1.86</text>
+  <text x="172" y="93" text-anchor="end" font-size="13" fill="currentColor">Wombaroo Pass</text>
+  <text x="231" y="93" text-anchor="start" font-size="13" fill="currentColor">1.09</text>
+  <text x="172" y="128" text-anchor="end" font-size="13" fill="currentColor">Bunjalung Ridge Road</text>
+  <text x="231" y="128" text-anchor="start" font-size="13" fill="currentColor">1.06</text>
+  <text x="172" y="163" text-anchor="end" font-size="13" fill="currentColor">Grellan Creek Road</text>
+  <text x="208" y="163" text-anchor="start" font-size="13" fill="currentColor">0.50</text>
+  <text x="172" y="198" text-anchor="end" font-size="13" fill="currentColor">Coorabin Road</text>
+  <text x="193" y="198" text-anchor="start" font-size="13" fill="currentColor">0.12</text>
+  <text x="172" y="233" text-anchor="end" font-size="13" fill="currentColor">Merricourt Highway</text>
+  <text x="190" y="233" text-anchor="start" font-size="13" fill="currentColor">0.04</text>
 </svg>
 
 Same seven roads, ranked by rate instead of count. Old Bindari Road moves
@@ -123,7 +151,7 @@ denominator, not who was watching.
 > A road is a **hotspot** if its rate is at least double the median rate
 > across the roads being compared.
 
-- median rate: 1.065 — threshold: 2.13
+- median rate: 1.06 — threshold: 2.13
 - one road clears it: **Old Bindari Road**
 - a different threshold would draw the line somewhere else — that's why you
   state it

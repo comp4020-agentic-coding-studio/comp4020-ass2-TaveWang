@@ -115,10 +115,10 @@ daily traffic figure of 2,800 vehicles — a long, busy regional link. It
 gives Old Bindari Road a length of 9 km and an average daily traffic figure
 of 220 vehicles — a short, quiet back road.
 
-Using the observation window covered by the collision log (1,408 days, 4
-January 2023 to 12 November 2026 — the same period for both roads, which
-matters, since the formula below only works if every road is measured over
-the same span), the exposure-adjusted rate is:
+Using the observation window covered by the collision log — 4 January 2023
+to 12 November 2026, counting both dates: **1,409 days** — the same period
+for both roads, which matters, since the formula below only works if every
+road is measured over the same span, the exposure-adjusted rate is:
 
 > Recorded collisions per million vehicle-kilometres
 > = recorded collisions / (average daily traffic × days observed × road
@@ -126,19 +126,19 @@ the same span), the exposure-adjusted rate is:
 
 For Coorabin Road:
 
-> 18 / (2,800 × 1,408 × 38) × 1,000,000 ≈ **0.12** collisions per million
+> 18 / (2,800 × 1,409 × 38) × 1,000,000 ≈ **0.12** collisions per million
 > vehicle-kilometres
 
 For Old Bindari Road:
 
-> 11 / (220 × 1,408 × 9) × 1,000,000 ≈ **3.95** collisions per million
+> 11 / (220 × 1,409 × 9) × 1,000,000 ≈ **3.94** collisions per million
 > vehicle-kilometres
 
-Old Bindari Road has fewer than half as many recorded collisions as
-Coorabin Road, and an exposure-adjusted rate more than thirty times higher.
-The busy road *looks* worse on a map with dots sized by count. The quiet
-road is where a comparable stretch of driving is, on this measure, far more
-likely to end in a recorded collision.
+Old Bindari Road has fewer recorded collisions than Coorabin Road, and an
+exposure-adjusted rate more than thirty times higher. The busy road *looks*
+worse on a map with dots sized by count. The quiet road is where a
+comparable stretch of driving is, on this measure, far more likely to end in
+a recorded collision.
 
 ## What the adjustment assumes — and doesn't fix
 
@@ -146,7 +146,7 @@ Treat that rate as informative, not final. It rests on assumptions worth
 naming out loud:
 
 - **average daily traffic is treated as constant** across the whole
-  1,408-day window, which real traffic never is — seasonal and long-term
+  1,409-day window, which real traffic never is — seasonal and long-term
   changes are smoothed away by using a single average figure;
 - **it still only counts *recorded* collisions** — exposure adjustment
   changes the denominator, not the numerator, so it cannot correct for
@@ -183,7 +183,7 @@ short in-universe reason:
 
 Notice which road just posted the highest exposure-adjusted rate in the
 dataset: Old Bindari Road, in the **low** reporting-coverage category. If
-anything, its true rate could be even higher than 3.95 — a low-coverage road
+anything, its true rate could be even higher than 3.94 — a low-coverage road
 is the one place a genuinely dangerous stretch could be systematically
 under-counted. The exposure adjustment and the reporting-coverage category
 point in the same direction here, which is a stronger result than either
@@ -198,10 +198,10 @@ uses one explicit, simple definition for teaching purposes:
 > A road is a **hotspot** if its exposure-adjusted rate is at least double
 > the median rate across the roads being compared.
 
-Across the seven roads in the dataset, the median rate is 1.065 collisions
+Across the seven roads in the dataset, the median rate is 1.06 collisions
 per million vehicle-kilometres (Bunjalung Ridge Road's figure, sitting
 squarely in the middle of the ranked list). Double that is 2.13. Exactly one
-road clears it: **Old Bindari Road**, at 3.95. Under a naive "most raw
+road clears it: **Old Bindari Road**, at 3.94. Under a naive "most raw
 collisions" definition, the answer was Coorabin Road. Under this definition,
 it isn't — a genuinely different road, reached by making the definition
 explicit rather than leaving it implied.

@@ -61,9 +61,9 @@ measured values, a safe driving speed, or a claim about any real vehicle.
 | 60 | 16.7 |
 | 80 | 22.2 |
 
-At 40 km/h (11.1 m/s), a 1,500 kg vehicle's kinetic energy is:
+At 40 km/h, a 1,500 kg vehicle's kinetic energy is:
 
-> E = ½ × 1,500 × 11.1² ≈ **92,600 J** (92.6 kJ)
+> E = ½ × 1,500 × (40 / 3.6)² ≈ **92,600 J** (92.6 kJ)
 
 ## Doubling speed, quadrupling energy
 
