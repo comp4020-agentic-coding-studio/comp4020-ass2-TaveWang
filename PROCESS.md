@@ -227,3 +227,45 @@ eleven-slide deck screenshotted at both marking viewports, including
 walking the deck's new chart slides slide-by-slide to confirm the raw SVG
 markup actually rendered (bars, proportions, and caption text) rather than
 just checking it built.
+
+Weeks 3 and 4 were then built out in full, each moving the course's running
+argument on one axis further. Week 3 takes "when?" (week 2) to "where?": a
+new companion dataset (`public/data/road-network-synthetic.csv`, invented
+teaching data covering the same seven roads as the collision log, with
+road length, average daily traffic and a reporting-coverage category) lets
+students turn a raw collision count per road into a rate per million
+vehicle-kilometres, and the two rankings disagree on purpose — Coorabin
+Road has the most raw records but one of the lowest rates, while Old
+Bindari Road sits mid-table on raw counts but has both the highest rate
+*and* the lowest reporting coverage, so the lecture can state plainly that
+exposure adjustment corrects a denominator, not who was watching. The
+paired session ("Mapping the hotspots") hands students the same join and a
+schematic road bar-chart rather than a real map, since neither dataset
+carries coordinates; its formative "Hotspot Appeal Form" asks for a first
+ranking, a revised ranking and a stated hotspot definition, directly
+rehearsing the exposure-adjustment argument the week-6 assignment already
+requires students to defend. Week 4 takes collision frequency to collision
+physics: a single synthetic scenario (a 1,500 kg vehicle at 40/60/80 km/h,
+stated 1.5 s reaction time and 6.5 m/s² braking deceleration) runs through
+E=½mv², reaction distance, and an idealised v²/(2a) braking distance, with
+its own slide and worksheet section stating outright that vehicle kinetic
+energy is the vehicle's alone — never the animal's mass, never a stand-in
+for energy transferred or injury severity. This replaced an earlier version
+of the week that referred to "real recorded speeds" the dataset doesn't
+have, and dropped unsupported claims about late braking or swerving that
+had no place in a physics-limitations lecture. Its reading (Khorasani-
+Zavareh, Bigdeli, Saadat & Mohammadi, 2015, PMC4288294) was checked by
+fetching the actual article rather than trusting the citation search
+result, and turned out to use the same doubling-speed worked example this
+lecture does. Week 4's teacher changed from Idris Fenn to Priya Lindqvist,
+matching her existing bio as the course's impact-biomechanics specialist.
+Both weeks' formative outputs are stated explicitly as ungraded. Verified
+the same way as every round — `pnpm check` and `pnpm check:evidence`
+green, a manual secret-scan over staged content, all four pages
+screenshotted at both marking viewports, and both new decks (11 and 12
+slides) walked slide-by-slide under Playwright at both viewports to rule
+out the overflow/clipping that a full-page screenshot can't catch. One
+accessibility violation (an unlabelled table header on week 3's worked-
+calculation slide) and one mobile-legibility issue (an eight-column table
+in the week 3 session clipping at the phone viewport) were caught this way
+and fixed before commit.
