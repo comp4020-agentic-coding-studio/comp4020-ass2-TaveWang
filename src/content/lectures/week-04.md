@@ -193,9 +193,10 @@ Every distance calculated this week starts counting only after the driver
 has detected the animal. Reaction time is a fixed input here; next week
 treats it as the actual subject, asking what makes detection at dusk harder
 in the first place — which is the question that determines whether any of
-this week's stopping distances get a chance to matter at all. Professor
-Lindqvist accepts late assignments more readily than physics accepts late
-detection.
+this week's stopping distances get a chance to matter at all. The physics
+model begins after detection. Next week asks how late that starting point
+might be. Professor Lindqvist accepts late assignments more readily than
+physics accepts late detection.
 
 ## Reading
 

@@ -60,9 +60,16 @@ Fill in one row per speed. The formulas:
 This runs as one 50-minute sequence, after the short lecture. Work in the
 same pairs as previous weeks.
 
-1. **5 minutes — predict.** Before calculating anything, write one sentence
-   predicting what happens to kinetic energy when speed doubles (40 to 80
-   km/h). No looking back at the lecture slides yet.
+1. **5 minutes — predict.** You already know from the lecture that doubling
+   speed quadruples kinetic energy, so this prediction asks a different
+   question: at 80 km/h, what happens to total stopping distance if reaction
+   time increases from 1.5 to 2.0 seconds while braking deceleration stays
+   unchanged? Write one sentence predicting the *direction* of the change
+   (longer or shorter) and one *approximate size* (a guess in metres). Only
+   once you've written both, check yourself with one quick line of
+   arithmetic — braking distance doesn't change, so the whole answer is just
+   the extra reaction distance: 80 km/h in m/s (22.2) × the 0.5 s increase.
+   How close was your guess?
 2. **10 minutes — convert and calculate energy.** Convert all three
    scenario speeds to metres per second, then calculate kinetic energy for
    each using the 1,500 kg mass. Fill in the first three columns of the

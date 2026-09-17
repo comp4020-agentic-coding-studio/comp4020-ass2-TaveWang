@@ -1,0 +1,141 @@
+---
+title: Roo bars, AEB, and their blind spots
+description: Week 6 lecture deck for SLOP8258
+---
+
+# Week 6
+
+## Roo bars, AEB, and their blind spots
+
+### The Brochure Has Excellent Daytime Vision
+
+---
+
+## A polished claim
+
+> "Our system detects wildlife before you do."
+
+Which wildlife? At what distance? In what lighting? With what consequence?
+
+A claim that answers none of these hasn't told you anything yet.
+
+```notes
+Let the room sit with the claim for a moment before moving to the
+four-function breakdown — the vagueness is the point.
+```
+
+---
+
+## Four different functions
+
+- **detection** — identifies a possible hazard
+- **warning** — alerts the driver
+- **automatic emergency braking (AEB)** — changes the vehicle's motion
+- **impact protection** — changes the collision, if one occurs
+
+A roo bar is impact protection only. It does not detect. It does not brake.
+
+---
+
+## False positives, false negatives
+
+100 staged trials: 40 with an animal present, 60 without.
+
+| Trial | Detected | Missed |
+| --- | --- | --- |
+| Animal present (40) | 34 | 6 |
+
+| Trial | False alarm | Correctly quiet |
+| --- | --- | --- |
+| No animal (60) | 9 | 51 |
+
+False negative rate = 6/40 = **15%**. False positive rate = 9/60 = **15%**.
+
+Different denominators. A single "accuracy" figure hides both.
+
+---
+
+## Detection distance meets the margin
+
+> Distance margin = assumed detection distance − modelled stopping distance
+
+- 120 m stated range, 80 km/h (71.3 m stopping): margin **+48.7 m**
+- same system, 60 m once obscured by vegetation: margin **−11.3 m**
+
+The headline range and the fine-print range are not the same claim.
+
+---
+
+## Detection rate ≠ collision prevention
+
+85% detection is not 85% of collisions prevented.
+
+Between detection and prevention: warning comprehension, driver reaction,
+whether the vehicle can actually stop in time, whether the animal stays
+put.
+
+One is a claim about a sensor. The other is a claim about an entire chain.
+
+---
+
+## Performance varies by condition
+
+- **lighting** — daylight, dusk, night, glare
+- **animal type and posture** — stationary and broadside vs. fast and end-on
+- **obstruction** — vegetation hides animals from sensors too
+- **speed** — validated at 60 km/h isn't validated at 100 km/h
+
+A card that states one condition has told you about one condition.
+
+---
+
+## Three cards and a roo bar
+
+| Card | Function | Range/distance | Latency | Unverified for |
+| --- | --- | --- | --- | --- |
+| A — optical | detect + warn | 90 m daylight, degrades below ~20 lux | 0.4 s | low light |
+| B — thermal | detect + warn | 120 m, ~60 m if obscured | 0.6 s | reptiles, small animals |
+| C — AEB fusion | detect + brake | TTC-triggered, to 60 km/h | 0.3 s | wildlife, >60 km/h |
+| Roo bar | impact protection | n/a | n/a | compatibility, injury outcomes |
+
+---
+
+## Designing a fair test
+
+A test can favour a product without lying — just by choosing conditions.
+
+A fair test states conditions in advance, includes the ones a vendor would
+rather skip, reports a real denominator for every rate, and says plainly
+what it didn't test.
+
+```notes
+This is the actual skill for the session: spotting which of these a given
+test skipped.
+```
+
+---
+
+## Insufficient evidence is a valid answer
+
+None of the three fictional systems has been shown to prevent a collision.
+
+Each has been shown to do something narrower, under stated conditions.
+
+"Conditionally promising" is an honest ceiling. You are not required to
+pick a winner.
+
+---
+
+## Where this connects to your assessment
+
+Checking a denominator. Separating detection from prevention. Reading a
+specification's stated limits.
+
+The [literature review and hotspot analysis](/assessments/assignment-1/) —
+due **12 April 2027**, 40% — rewards exactly these habits, applied to
+published research.
+
+> "Wildlife detection" is a category. "The kangaroo behind that bush" is a
+> test case.
+
+The brochure has excellent daytime vision.

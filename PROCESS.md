@@ -317,3 +317,66 @@ secret-scan over the six changed files, all four content pages
 screenshotted at both marking viewports, and both decks walked slide-by-
 slide under Playwright at both viewports — where the clipped chart label
 above was actually caught, then fixed and re-verified before commit.
+
+Weeks 4, 5 and 6 were then joined into one explicit sequence — how much
+distance and energy speed creates, when a driver actually notices the
+animal, whether technology can detect it early enough to help — with week 4
+given a small continuity pass and weeks 5 and 6 built out in full from thin
+stubs. Week 4's session swapped a now-redundant prediction (students had
+already learned in the lecture that doubling speed quadruples kinetic
+energy) for a new one: predict, then calculate, how much extra stopping
+distance an 80 km/h reaction time increase from 1.5 to 2.0 s adds (11.1 m,
+kept at full precision before rounding), and both the lecture and deck
+picked up an explicit one-line bridge into week 5. Week 5 turns week 4's
+fixed reaction-time input into the actual subject: a five-stage account of
+present/visible/recognised/responds/brakes that names reaction time as
+stages 3 and 4 bundled together, so a "recognition delay" is never added on
+top of it and double-counted; a "distance margin" (assumed detection
+distance minus week 4's modelled stopping distance) that is explicit about
+being two-sided and non-predictive in either direction; and four labelled,
+invented scenarios computed once and reused identically across the lecture
+table, the lecture's SVG bar chart, the session, and the new deck. The
+session's image exercise was written as two prose scene cards rather than
+photographs, since no roadside photography exists anywhere in the repo and
+an uncalibrated photo couldn't establish a real detection distance either —
+a written scene serves the same discussion purpose honestly, and the page
+says so rather than silently substituting one material for another. Week 6
+turns that assumed detection distance into the actual subject: a fictional
+vendor claim opens onto a four-function taxonomy (detection, warning,
+automatic braking, impact protection) that a roo bar fails outright, since
+it performs none of the first three; a worked false-positive/false-negative
+example carries an explicit denominator for each rate (6/40 missed, 9/60
+false alarms) so a single "accuracy" figure can't hide which one moved; and
+three contrasting fictional specification cards plus a separate roo-bar
+card replace the old stub's promise of real manufacturer spec sheets,
+each stating its own test conditions and unknowns rather than a bare
+performance number. That stub had also told students to submit the week-6
+assignment "before this session," a live scheduling error independent of
+this round's brief, since the assignment is actually due 2027-04-12, two
+weeks after week 6's own date — both the lecture and session now point at
+the real deadline instead, and neither adds a new graded requirement of its
+own on top of it. Two real citations were added, one per week, each checked
+against its own primary source rather than a search snippet (Wood, Tyrrell
+& Carberry, 2005, on pedestrian night-recognition distance, framed honestly
+as an adjacent perceptual mechanism rather than kangaroo-specific data; and
+Huijser, Mosler-Berger, Olsson & Strein's 2015 road-ecology handbook chapter
+on wildlife warning and detection systems). Two new decks (week 5 and week
+6, twelve and eleven slides) were built from scratch, since neither week
+had one before. Building them surfaced two of this round's three real
+defects: an MDX build failure from a literal `<` in a spec-card table cell
+that the compiler read as an unfinished JSX tag, fixed by rephrasing around
+it, and an accessibility violation from three tables whose first header
+cell had been left empty rather than given a real label. The third defect
+was a chart, not new content: week 5's distance-margin bar chart, reused
+identically in the lecture and the deck, clipped its own "0 m" axis label
+against the left edge of its SVG viewBox, caught by the same automated
+bbox-versus-viewBox check the previous round's fix relied on and corrected
+in both files by widening the viewBox rather than moving the label. Verified
+the same way as every round, extended to cover the two new decks: `pnpm
+check` and `pnpm check:evidence` green, a manual secret-scan over the seven
+changed and new files, all six lecture and session pages and all three
+decks screenshotted at both marking viewports, and every deck walked
+slide-by-slide under Playwright (tracking Reveal's own `past`/`present`/
+`future` section classes, since this project doesn't expose a `window.Reveal`
+global to query directly) to rule out the same clipping and overflow class
+of bug the source alone can't show.

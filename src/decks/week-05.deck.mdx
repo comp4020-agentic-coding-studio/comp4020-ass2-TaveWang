@@ -1,0 +1,172 @@
+---
+title: Human perception and reaction time at dusk
+description: Week 5 lecture deck for SLOP8258
+---
+
+# Week 5
+
+## Human perception and reaction time at dusk
+
+### You Cannot Brake for What You Have Not Seen
+
+---
+
+## Last week's number
+
+At 80 km/h: **71.3 m** total stopping distance.
+
+33.3 m reaction distance + 38.0 m braking distance.
+
+That number starts counting only once the driver has already noticed the
+animal.
+
+```notes
+Ask the room: what did that 71.3 m assume, that nobody actually checked?
+The answer is the moment of detection itself.
+```
+
+---
+
+## A different question
+
+What if the animal only becomes detectable **50 metres** ahead?
+
+The stopping distance hasn't changed — it's still 71.3 m.
+
+What's changed is whether 71.3 m of road was ever available at all.
+
+---
+
+## Five stages, one boundary
+
+1. the animal is present
+2. it becomes **visible**
+3. the driver **recognises** it as a hazard
+4. the driver **responds**
+5. braking **begins**
+
+Week 4's "reaction time" bundles stages 3 and 4. Stage 2 is this week's
+subject.
+
+```notes
+Warn about double-counting: if reaction time already includes recognition,
+don't add a separate recognition delay on top of it.
+```
+
+---
+
+## What changes detection distance
+
+- **contrast** — animal against background, not animal alone
+- **glare** — degrades resolution near the light source, doesn't just dim it
+- **roadside vegetation** — hides outline, independent of light level
+- **attention and fatigue** — visible in principle isn't the same as noticed
+
+Dusk isn't universally worse than night. Not every road is the same road.
+
+---
+
+## Distance margin
+
+> Distance margin = assumed detection distance − modelled stopping distance
+
+- **positive** — the model leaves distance to spare
+- **negative** — stopping before the hazard isn't possible under those
+  assumptions
+
+Neither result guarantees what actually happens next.
+
+---
+
+## Four scenarios
+
+Invented teaching inputs — 1,500 kg vehicle, 6.5 m/s² deceleration, same as
+week 4.
+
+| Scenario | Speed | Detection | Reaction time | Margin |
+| --- | --- | --- | --- | --- |
+| A | 60 km/h | 70 m | 1.5 s | **+23.6 m** |
+| B | 80 km/h | 70 m | 1.5 s | **−1.3 m** |
+| C | 80 km/h | 50 m | 1.5 s | **−21.3 m** |
+| D | 80 km/h | 70 m | 2.0 s | **−12.4 m** |
+
+---
+
+## The margin, compared
+
+<svg viewBox="-15 0 515 300" width="100%" height="300" role="img" aria-label="Bar chart of distance margin in metres for four scenarios: Scenario A plus 23.6, Scenario B minus 1.3, Scenario C minus 21.3, Scenario D minus 12.4">
+  <line x1="20" y1="140" x2="480" y2="140" stroke="currentColor" stroke-width="1" opacity="0.4" />
+  <text x="15" y="144" text-anchor="end" font-size="12" fill="currentColor" opacity="0.7">0 m</text>
+  <rect x="40" y="45.6" width="80" height="94.4" rx="4" fill="var(--at-primary)" />
+  <rect x="160" y="140" width="80" height="5.2" rx="2" fill="var(--at-primary)" />
+  <rect x="280" y="140" width="80" height="85.2" rx="4" fill="var(--at-primary)" />
+  <rect x="400" y="140" width="80" height="49.6" rx="4" fill="var(--at-primary)" />
+  <text x="80" y="38" text-anchor="middle" font-size="14" fill="currentColor">+23.6 m</text>
+  <text x="200" y="159" text-anchor="middle" font-size="14" fill="currentColor">−1.3 m</text>
+  <text x="320" y="239" text-anchor="middle" font-size="14" fill="currentColor">−21.3 m</text>
+  <text x="440" y="204" text-anchor="middle" font-size="14" fill="currentColor">−12.4 m</text>
+  <text x="80" y="270" text-anchor="middle" font-size="14" fill="currentColor">Scenario A</text>
+  <text x="200" y="270" text-anchor="middle" font-size="14" fill="currentColor">Scenario B</text>
+  <text x="320" y="270" text-anchor="middle" font-size="14" fill="currentColor">Scenario C</text>
+  <text x="440" y="270" text-anchor="middle" font-size="14" fill="currentColor">Scenario D</text>
+</svg>
+
+Above the line: distance to spare. Below it: doesn't clear the modelled
+stopping distance.
+
+---
+
+## One variable at a time
+
+- **A → B**: speed only (60→80 km/h). Margin flips positive to negative —
+  speed moves both terms.
+- **B → C**: detection distance only (70→50 m). Margin worsens 20 m,
+  one-for-one.
+- **B → D**: reaction time only (1.5→2.0 s). Margin worsens **11.1 m** — the
+  same figure week 4's own extended scenario produced.
+
+Reaction time adds distance **linearly**. Speed hits both terms at once.
+
+---
+
+## Two scene cards
+
+**Scene 1 — open paddock verge.** Straight road, open grazed land either
+side, low orange light, kangaroo side-on at the verge.
+
+**Scene 2 — scrub cutting.** Same road, dense roadside scrub, kangaroo
+mostly hidden behind a low bush, oncoming headlights around the bend.
+
+Discussion, not a reaction-time test. Neither scene is calibrated to a real
+distance.
+
+```notes
+Full scene-card text and the discussion questions are in this week's
+session file, not repeated here.
+```
+
+---
+
+## What this cannot establish
+
+A calculation using an assumed detection distance is not a measurement of
+any real driver's or any real road's actual detection distance.
+
+It shows how sensitive the model is to an input week 4 held fixed — nothing
+stronger than that.
+
+---
+
+## Next week
+
+A distance margin is only as good as the detection distance fed into it —
+and so far that number has just been *assumed*.
+
+Next week asks where a real detection distance might actually come from: a
+sensor, a warning sign, an automatic braking system.
+
+> The braking system cannot respond to an animal that is still classified
+> as "probably a shrub." Your confidence is not an additional headlight.
+
+Physics starts counting after detection. The kangaroo has already been
+there for some time.
