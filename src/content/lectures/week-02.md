@@ -28,9 +28,9 @@ asking what produced it.
 
 ## Your first graph
 
-In the session either side of this lecture, you'll build a time-of-day
-distribution from the [collision log](/data/collision-log-synthetic.csv), a
-synthetic dataset built for this unit. It will look roughly like this:
+In this week's session, you built a time-of-day distribution from the
+[collision log](/data/collision-log-synthetic.csv), a synthetic dataset built
+for this unit. It looked roughly like this:
 
 | Day period | Records |
 | --- | --- |
@@ -51,15 +51,20 @@ looking at.
 ## What is the graph actually a graph of?
 
 A time-of-day distribution of collision *records* answers one question
-directly: **when do rows get added to this dataset?** It only answers a
-second question — **when are kangaroos on the road?** — if every collision
-that happens is recorded, and recorded with an accurate time. Neither is
-guaranteed.
+directly: **which times are recorded in these rows?** That is not the same
+question as *when are kangaroos on the road?*, and the gap between them
+doesn't close just by recording things properly. Even if every collision
+that happens were recorded, and recorded with an accurate time, a collision
+record would still only exist at the moment an animal, a vehicle and a
+stretch of road all coincide — it cannot directly measure the roadside
+animal activity that never produces a collision at all.
 
 A pattern in the spreadsheet may describe kangaroos — or it may describe
 the person holding the clipboard. Both explanations are consistent with the
 same 34 dusk rows. Telling them apart is this week's actual skill, and the
-dataset audit later in this lecture is where you get to practise it.
+dataset audit you ran in the session is where you practised it. The rest of
+this lecture explains why that audit worked, and what it means for the
+conclusion you're allowed to draw.
 
 ## Crepuscular activity, and its limits
 
@@ -149,8 +154,9 @@ of animal presence alone.
 
 ## Back to the dataset: an inconveniently exact appointment
 
-Look closely at the timestamps behind those 34 dusk records, rather than
-just the day-period label. A disproportionate number sit at exactly
+In the session, you looked closely at the timestamps behind those 34 dusk
+records, rather than just the day-period label. A disproportionate number
+sit at exactly
 **06:00** or exactly **18:00** — not "around dawn," not "roughly early
 evening," but the same two clock times, repeated.
 

@@ -47,8 +47,10 @@ is part of this session.
 
 ## Before the session
 
-Load the dataset in whatever tool you're comfortable with. No analysis yet —
-just get a feel for its shape: how many records, what fields, what's missing.
+Skim the data dictionary above so you know what the columns mean — but don't
+open the CSV itself yet. The first time you look at an actual row happens in
+the session, right after you've written down a prediction with nothing to
+bias it.
 
 ## In the session
 

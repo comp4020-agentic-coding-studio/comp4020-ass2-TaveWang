@@ -199,3 +199,31 @@ mobile pass), and the new deck checked slide-by-slide — all ten sections
 confirmed by walking Reveal's slide navigation under Playwright, since a
 plain full-page screenshot of a Reveal deck only ever captures the first
 slide.
+
+A short usability pass then fixed four things a review of that build
+surfaced. The lecture's "either side of this lecture" framing was removed
+and its opening section rewritten past-tense, since the lecture now
+explicitly debriefs a session that already ran, rather than bracketing it —
+the deck's own prediction slide became a "Recap" for the same reason. The
+session's "Before the session" prep instruction (load the dataset first) was
+quietly contradicting the in-session activity's own first step ("before
+opening the dataset... no looking yet"); prep now stops at skimming the data
+dictionary, and the first real look at a row happens in-session,
+immediately before the prediction. The lecture's "when do rows get added to
+this dataset?" line was replaced with "which times are recorded in these
+rows?", plus an added sentence making a point the lecture hadn't stated
+directly: a collision record needs an animal, a vehicle and a collision all
+at once, so even perfectly accurate recording still can't measure the
+roadside animal activity that never results in one. And the deck's single
+impact slide showing only the four raw day-period totals became two actual
+SVG bar charts — computed directly from the CSV (dawn 22/day 17/dusk
+34/night 17 raw; dawn 18/day 17/dusk 27/night 17 with the eleven
+shift-time-flagged records removed), both labelled as synthetic teaching
+data and drawn to the same px-per-record scale so the shrinkage in the dawn
+and dusk bars is visually comparable between the two slides. Verified the
+same way as every round — `pnpm check` and `pnpm check:evidence` green, a
+manual secret-scan over staged content, and the lecture, session and now
+eleven-slide deck screenshotted at both marking viewports, including
+walking the deck's new chart slides slide-by-slide to confirm the raw SVG
+markup actually rendered (bars, proportions, and caption text) rather than
+just checking it built.
