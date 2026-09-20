@@ -7,6 +7,7 @@ week: 9
 date: 2027-04-19
 teachers:
   - marisol-quaye
+slides: /decks/week-09/
 related:
   - sessions/09-after-the-collision
 ---
@@ -79,16 +80,18 @@ what it stands for; it does not reproduce the steps, because St John
 themselves are explicit that their fact sheet "is not a substitute for
 first aid training" — the same caution applies here with more force, since a
 lecture slide is a worse substitute for training than St John's own written
-fact sheet is. If a human casualty is involved, that is a 000 call, full
-stop, before anything else in this lecture applies.
+fact sheet is. A serious injury, a need for urgent medical help, or an
+ongoing danger to a person is a 000 call before anything else in this
+lecture applies — the same threshold as the contact table below, not every
+instance of a person being present at the scene.
 
 ## A real contact-resource table
 
 | Situation | Who to contact | Notes |
 | --- | --- | --- |
-| Life-threatening emergency — a person injured, a fire risk, or a serious ongoing traffic hazard | **000** (Police / Fire / Ambulance) | Always call first if a person is at risk |
-| Injured native wildlife, anywhere in Australia | **WIRES: 1300 094 737** | Staffed 24 hours a day, every state — verified against [wires.org.au/contact-us](https://www.wires.org.au/contact-us); WIRES states other contact channels, including social media, "are not monitored for rescues" |
-| A state-specific wildlife rescue service | Check that state's own wildlife-rescue organisation's current homepage (for example Wildlife Victoria, RSPCA, or your state's equivalent) | Services and numbers can change — check the organisation's own site rather than a remembered number |
+| Life-threatening danger, a serious injury, or an urgent ongoing hazard — someone is badly hurt, there's a fire risk, or a dangerous traffic obstruction is still live | **000** (Police / Fire / Ambulance) | Reserve 000 for this tier — a minor scrape or a report you can safely make once things are stable doesn't need it |
+| Wildlife rescue advice, anywhere in Australia | **WIRES: 1300 094 737** | 24 hours a day, 365 days a year, per [WIRES' emergency rescue advice page](https://www.wires.org.au/wildlife-rescue/emergency-rescue-advice); this line gives rescue *advice* over the phone — it is not itself a promise that a rescuer is standing by in every state, and WIRES states other contact channels, including social media, "are not monitored for rescues" |
+| Your region's actual on-the-ground rescue organisation | Look it up via [WIRES' state-by-state rescue contact list](https://www.wires.org.au/national-wildlife-rescue) (Wildlife Victoria, RSPCA, Wildcare, and others, depending on where you are) | Call WIRES first for advice on what to do right now; use this list separately to find who can actually attend at your location — the two are not the same service |
 
 ## Legal obligation, organisational process, and general advice are three different things
 

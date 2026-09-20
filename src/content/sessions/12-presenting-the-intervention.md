@@ -9,7 +9,7 @@ teachers:
   - idris-fenn
 spec:
   - you can state your proposal's single primary intervention, at least
-    three evidence strands, and its evaluation plan in under two minutes
+    three evidence strands, and its evaluation plan in about three minutes
   - you can identify at least one gap in a peer's proposal using the
     feedback prompt questions
 related:
@@ -33,11 +33,17 @@ final-project draft, even if incomplete.
 | Chosen intervention (one primary measure) | |
 | Implementation — jurisdiction | |
 | Implementation — approval pathway | |
-| Implementation — initial cost (illustrative) | |
-| Implementation — ongoing cost (illustrative) | |
+| Implementation — initial cost estimate, and its source | |
+| Implementation — ongoing cost estimate, and its source | |
 | Evaluation — process metric | |
 | Evaluation — outcome metric | |
 | Scope check — is this one measure, or a bundle? | |
+
+The two cost fields may stay blank at this stage of the draft — but leave
+yourself a note on where you'll get a real figure from, since your final
+submission needs an actual cost estimate and its source for your chosen
+jurisdiction, not the illustrative teaching figures from Week 7 or 12's
+worked examples.
 
 ## In the session — "The Proposal Defence Clinic"
 

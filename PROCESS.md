@@ -431,3 +431,109 @@ the only visual oddity being a browser toolbar element duplicated by
 Playwright's own full-page screenshot stitching on tall pages, confirmed
 against a normal scrolled viewport screenshot of the same content to be a
 capture artifact rather than a real rendering fault.
+
+A later, narrower pass went back over weeks 7 to 12 to fix places where the
+evidence quietly outran what it actually supported, without touching either
+assessment's weight, deadline or marking mode. Week 12's worked "improved
+proposal" example had drifted into exactly the overclaiming the unit is
+meant to teach against: it attributed the kinetic-energy relationship to
+the wrong week, treated a continuous scrub line and a physics relationship
+as if they alone justified a specific crossing location, cited Rytwinski et
+al. (2016)'s roadside-reflector figure as if it were about signage, and
+wrote a full-fence recommendation and a generic "standard approval
+pathway" as settled facts rather than open questions — all rewritten so the
+example now states its primary intervention plainly, argues from the
+evidence it actually has, and flags what still needs an animal-movement
+survey, an authority-classification check, and a real environmental
+assessment before anyone could act on it, with the reused Week 7 cost
+figures now explicitly labelled as fictional planning assumptions rather
+than a costing basis. Week 8's fictional contract excerpt had the same
+problem in miniature: one clause was being asked to answer three different
+questions (coverage, fault, and excess) it was never written to answer, so
+a second clause and a rental damage-waiver excerpt were added to actually
+carry that reasoning, and both worked cases were rewritten to conclude only
+what the documents in front of them support. Two of the unit's own charts
+— week 7's fencing-versus-reflectors comparison and week 11's Seiler
+figure — had bars that didn't scale to their labelled percentages;
+both were recomputed against a shared baseline and corrected in every
+lecture and deck copy. Week 9's contact table was rewritten to stop
+implying that a national advice line means on-the-ground rescue coverage in
+every state, replacing that claim with WIRES' own emergency-advice page and
+its separate state-by-state rescue-contact list, both fetched and checked
+directly against wires.org.au before being cited. The rest was smaller
+cleanup in the same spirit: correcting a stray "next week" reference and a
+column-name mismatch, replacing a few phrases that had leaked internal
+template vocabulary into student-facing prose, removing an unsupported
+claim about the unit's marking history, and turning two sessions' vague
+"materials below" pointers into an explicit link or a same-page anchor.
+Verified the same way as every prior round — `pnpm check` and `pnpm
+check:evidence` green, a manual secret-scan over the fifteen changed files,
+and all twelve lecture and session pages plus all six affected decks
+screenshotted and walked slide-by-slide under Playwright at both marking
+viewports — with the two new in-page anchor links additionally confirmed
+by fetching the live dev-server HTML for the exact `id` each one targets,
+and the five new "Open the slides" links confirmed to resolve to their
+correct deck pages the same way.
+
+A short follow-up pass closed four smaller inconsistencies the previous
+round had missed. Week 9's own prose still said "any human casualty is a
+000 call, full stop," in both the lecture and the deck, while the contact
+table right next to it had already been narrowed to serious injury, urgent
+medical help, or immediate danger — the prose now uses that same threshold
+in both files, instead of a stricter blanket rule sitting beside a looser
+table. Week 12's session had its own internal mismatch: the spec claimed
+students could deliver their pitch "in under two minutes," while the
+activity table gave each defence round "about three minutes" — resolved by
+matching the spec to the timed activity rather than the other way round,
+since the timed slot is the actual constraint. The proposal planning
+canvas labelled its two cost fields "(illustrative)," which was the right
+word for Week 7 and 12's teaching examples but the wrong word for a
+field students fill in with their own project's numbers; those fields are
+now "cost estimate, and its source," with a note that they may stay blank
+for now but need a real source before the final submission. And Week 12's
+worked "improved proposal" example, while accurate, had been written as one
+uninterrupted paragraph spanning all six moves — split into six separate,
+labelled paragraphs (Problem, Evidence, Mechanism, Intervention,
+Implementation, Evaluation) inside the same blockquote so a reader can
+actually scan it move by move, with no change to its factual content.
+Verified the same way as every prior round: `pnpm check` and `pnpm
+check:evidence` green, a manual secret-scan over the changed files, and
+the restructured blockquote and the corrected 000 wording both confirmed
+against the live dev-server render rather than the source alone.
+
+A second follow-up message restated the same four items, so this round
+started by re-checking each one against the files already on disk rather
+than assuming another edit was needed: grepping for the old "full stop"
+000 wording, the old "under two minutes" spec line, the old
+"(illustrative)" cost labels, and the old single-paragraph worked example
+all came back clean, and the corrected wording was present and consistent
+everywhere it should be — no further content changes were made for those
+four items. The rest of the round was a full Week 1–12 walkthrough,
+deliberately scoped to finding genuine defects rather than polishing
+finished pages, as instructed. It checked structural consistency (week
+number, date, teacher list and reciprocal `related` links) between every
+lecture/session pair, confirmed every lecture has a working `slides:` link
+and every session's promised cards, tables and templates actually exist on
+the page, confirmed both synthetic dataset CSVs are present at the paths
+the lectures and sessions link to, confirmed every assessment reference
+across all twelve weeks names the correct real weight and deadline, cross-
+checked all seven teachers named across the lecture/session frontmatter
+against the People collection and its bios for stale "teaches week N"
+claims, and re-swept the whole content tree for any remaining "000",
+"full stop", "under two minutes" or "(illustrative)" wording outside
+Week 9 and 12. Two things were looked at and deliberately left alone
+because they weren't defects: Week 5's lecture credits Callum Beaumont as
+a co-teacher for a two-sentence bridging note while the session runs under
+Priya Lindqvist alone, which reflects an actual division of labour rather
+than a factual error, and Week 1 uses the heading "Further reading" where
+Weeks 2 to 12 use "Reading" — a cosmetic naming difference, not a missing
+or broken resource. No genuine defect turned up anywhere in Weeks 1–12, so
+no content files were changed in this pass beyond the PROCESS.md entry
+itself. Verified via `pnpm check` and `pnpm check:evidence` green, a
+manual secret-scan over the working tree, and a live Playwright sweep of
+the main navigation (home, Lectures, Sessions, Assessment, People,
+Policies) plus the Week 9 and Week 12 lecture and session pages at both
+marking viewports, confirming 200 responses, no horizontal overflow, and
+the exact corrected wording rendering as expected — including a targeted
+screenshot of the People index confirming all seven bios and role labels
+still match what each week's frontmatter claims.

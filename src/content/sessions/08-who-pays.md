@@ -45,6 +45,6 @@ distinction between *what happened* and *what could be proven to have
 happened* is exactly what Week 9's reporting-obligations material builds on.
 
 **Reminder:** Assignment 1 (literature review and hotspot analysis, 40% of
-the unit, holistic-free weighted marking) is due today at
+the unit, marked against two weighted criteria) is due today at
 [12:00, 2027-04-12](/assessments/assignment-1/). This session doesn't change
 that deadline or add anything to its spec.

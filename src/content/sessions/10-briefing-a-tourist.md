@@ -17,10 +17,11 @@ related:
 
 ## Before the session
 
-Read the fictional bad notice and the three reader persona cards below (also
-in this week's lecture). Draft a one-page risk briefing aimed at a
-first-time visitor picking up a rental car — bring it to the session, even
-in rough form.
+Read the [fictional bad
+notice](/lectures/week-10/#a-fictional-example-of-a-warning-that-fails) in
+this week's lecture, and the three reader persona cards below. Draft a
+one-page risk briefing aimed at a first-time visitor picking up a rental
+car — bring it to the session, even in rough form.
 
 ## Three reader personas
 

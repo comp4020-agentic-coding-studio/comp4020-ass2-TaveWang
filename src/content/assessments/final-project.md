@@ -40,9 +40,8 @@ intervention, defensible on more than one of those grounds at once.
 
 Scope this to what a regional road authority could plausibly fund and
 approve in a normal budget cycle — not a national rollout, and not a purely
-speculative technology. The best proposals in this unit's marking history
-have picked something narrow and defended it thoroughly, rather than
-surveyed every option shallowly.
+speculative technology. Picking something narrow and defending it
+thoroughly is a stronger strategy than surveying every option shallowly.
 
 ## What you submit
 

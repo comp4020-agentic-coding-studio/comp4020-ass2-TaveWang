@@ -8,6 +8,7 @@ date: 2027-05-03
 teachers:
   - rowan-achterberg
   - marisol-quaye
+slides: /decks/week-11/
 related:
   - sessions/11-learning-from-elsewhere
 ---
@@ -129,7 +130,7 @@ strategy for deer–vehicle collisions," *Wildlife Biology*, 18(4), 414–423.
 ## A local scenario to test the questions on
 
 Grellan Creek Road (Northern Ranges, 22km, roughly 900 vehicles/day,
-Medium sensor coverage) is patrolled on a roughly weekly cycle, and most
+Medium reporting coverage) is patrolled on a roughly weekly cycle, and most
 reports come from commuting motorists rather than dedicated surveys — which
 means its own collision counts already carry the Week 3 exposure-bias
 problem, on top of whatever transfer question is being asked. Suppose

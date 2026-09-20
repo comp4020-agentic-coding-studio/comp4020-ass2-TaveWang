@@ -18,8 +18,9 @@ related:
 
 ## Before the session
 
-Read the contact-resource table and the three scene cards below (also
-summarised in this week's lecture).
+Read the three scene cards below, and the [contact-resource
+table](/lectures/week-09/#a-real-contact-resource-table) in this week's
+lecture.
 
 ## The three scene cards
 
@@ -54,9 +55,9 @@ contact of any kind, at any point.
 A short checklist, in your own words, of what to confirm before doing
 anything else at a strike scene, and what never to attempt without training.
 This is a formative output for this week's activity. It is genuinely useful
-background if you're proposing a driver-facing intervention in the final
-project, but it is **not** a required reference there — nothing in
-`final-project.md`'s spec lists it.
+background if you're proposing a driver-facing intervention in the [final
+project](/assessments/final-project/), but it is **not** a required
+reference there — the final project's own requirements don't list it.
 
 ## Afterwards
 

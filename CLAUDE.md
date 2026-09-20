@@ -55,6 +55,14 @@ those facts are delivered.
   phrases such as "the lecture explores..." for the explanation itself.
 - Introduce each important new concept with a plain-language explanation
   and a concrete example.
+- Break long worked examples into labelled steps matching the teaching
+  structure, such as Problem, Evidence, Mechanism, Intervention,
+  Implementation and Evaluation. Put limitations beside the claims they
+  qualify rather than collecting them in a disclaimer at the end.
+- Keep activity goals, preparation, instructions, timing and outputs
+  consistent. Check that the proposed group size and time allocation let
+  every student participate; state whether the activity runs in small
+  groups or as a whole class.
 - Each week must identify what students should be able to do afterwards.
   Connect the lecture, session activity and student output to those outcomes.
 - Keep these pages complementary: lectures explain; sessions guide practice;
@@ -79,12 +87,32 @@ those facts are delivered.
   them: date or period, population, geographical scope and what was measured.
 - Do not present insurance claims, reported incidents and estimated total
   collisions as interchangeable counts.
-- Label invented cases, dialogue and synthetic datasets clearly as fictional
-  teaching material. Keep them distinct from real-world evidence.
+- Label invented cases, dialogue, contracts, budgets and synthetic datasets
+  clearly as fictional teaching material. Keep them distinct from real-world
+  evidence.
+- Distinguish teaching-example assumptions from assessment requirements.
+  Student proposal templates should request the source or basis for costs
+  and evidence, not imply that fictional teaching figures satisfy a
+  requirement for realistic estimates. Allow incomplete draft entries,
+  stating what must be established before final submission.
+- Case conclusions must follow from the facts, clauses and data actually
+  supplied to students. Where information is missing, say what cannot yet
+  be concluded and what additional information is needed. Do not turn a
+  fictional contract into an industry rule, or an organisation's preliminary
+  assessment into a final legal determination.
 - Apply the same evidence standard to slides, captions and card descriptions
   as to lecture prose.
 - Separate observations, interpretations, hypotheses and conclusions.
   Research questions are investigated; hypotheses are tested.
+
+## Safety advice
+
+- Base emergency-service, collision-response and animal-handling advice on
+  relevant official sources. State the conditions under which the advice
+  applies; do not turn a conditional recommendation into an absolute rule.
+- Keep those conditions consistent across lecture prose, contact tables,
+  cases, session instructions and slides. Distinguish telephone advice from
+  local on-the-ground response availability.
 
 ## Preserve course coherence
 
@@ -92,10 +120,18 @@ those facts are delivered.
   relevant assessments and adjacent weeks.
 - Preserve existing dates, assessment weights and course configuration
   unless the requested change requires updating them.
-- Do not introduce a new graded task while describing it as a weekly activity.
-  State clearly when an output is formative and ungraded.
-- When changing a resource, title, role or requirement, check every page
-  that refers to it.
+- Do not introduce a new graded task or assessment submission requirement
+  while describing it as a weekly activity. State clearly when an output
+  is formative and ungraded; its relationship to an assessment must follow
+  the assessment brief.
+- When changing a fact, term, case conclusion, numerical value, duration,
+  safety instruction, resource, title, role or requirement, search for and
+  check all corresponding lecture, session, deck and assessment references.
+  After editing, search for the old wording and values to catch stale copies.
+- Keep revisions proportionate: prioritise factual errors, contradictions,
+  missing resources and activities that cannot run as written. Preserve
+  the course structure and humour unless a change is necessary; avoid
+  unrelated rewrites and repetitive disclaimers.
 - Preserve existing slugs unless a rename is needed. If renamed, update
   all references and internal links.
 
@@ -113,6 +149,11 @@ Before calling a week complete, verify that:
 Run the existing required checks. Report separately what was checked
 automatically, what was reviewed manually, and what remains unresolved.
 Do not claim browser verification unless you actually performed it.
+For changes to layout, charts or navigation, check the rendered result
+using the visual workflow above. Report only checks actually performed
+for the current revision: historical PROCESS.md entries are not evidence
+that new changes passed. Keep new PROCESS.md entries consistent with the
+work and verification actually completed.
 
 ## This file is yours
 
